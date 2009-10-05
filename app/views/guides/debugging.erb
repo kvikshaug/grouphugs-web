@@ -2,19 +2,26 @@
 <% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Debugging<% end %>
 
 <h2>Debugging</h2>
+
+<h3>Quick start</h3>
+
+<p>So how do you get this thing running? Well, unless you already have buildr installed, you need to install it. To do this, use the gem command provided by rubygems. If you don't have rubygems installed on your system, refer to the <a href="http://docs.rubygems.org/read/chapter/3">rubygems installation guide</a> for instructions on how to install it.</p>
+
+<p>Got rubygems installed yet? Good. Now all you need to do is compile and package Grouphugs, then run it. This is very simple:</p>
+
+<pre class="code">buildr clean package</pre>
+
+<p>This command tells buildr to pull any missing libraries from a remote maven repository, compile Grouphugs, and package it neatly into a .jar file for you. The resulting .jar file can now be found in the target/ subdirectory. Now, to run the .jar file, grouphugs.db (located in the project root directory) needs to be placed in the same directory as the .jar, and when that's all done you can issue the following command:</p>
+
+<pre class="code">java -jar &lt;jar file name&gt;</pre>
+
+<p>Grouphugs should now be running.</p>
+
 <p>After <%= link_to "downloading", :action => :pullingandpushing %> the source and applying your changes, you may be eager to test them out. But as we all know all too well, there is no such thing as bug-free code, so here we will explain how to run the bot on your local machine to find all (or most) of your bugs before you deploy them.</p>
 
 <h3>1: Libraries</h3>
 
-<p>You will need two libraries: The main pircbot library which the entire bot relies on, and the SQLite-JDBC library for SQL commands. Both of these are JAR files. Download them from the <%= link_to "downloads section", :controller => :about, :action => :libs %>, and put them where you find them handy.</p>
-
-<p>When running the bot, you need to add these to the class-path. If your working directory is the project root, the classes lie in /out/main and you put the JARs in the project root, you can run something like the following (on one line):</p>
-
-<pre class="code">java -classpath
-out/main:pircbot-1.4.6.jar:sqlitejdbc-v056-pure.jar
-grouphug.Grouphug</pre>
-
-<p>However, most IDEs will do this automatically for you if you just specify the JARs as libraries in some way.</p>
+<p>Since Grouphugs uses buildr as its build system, and buildr interacts with maven repositories, there's next to no need to worry about libraries &mdash; buildr will pull the necessary libraries from a remote maven repository and install them in your local maven repository (typically in ~/.m2/repository).</p>
 
 <h3>2: Logging output</h3>
 
