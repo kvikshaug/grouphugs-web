@@ -1,0 +1,44 @@
+<% content_for :nav_guides do %> class="marked"<% end %>
+<% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Debugging<% end %>
+
+<h2>Debugging</h2>
+<p>After <%= link_to "downloading", :action => :pullingandpushing %> the source and applying your changes, you may be eager to test them out. But as we all know all too well, there is no such thing as bug-free code, so here we will explain how to run the bot on your local machine to find all (or most) of your bugs before you deploy them.</p>
+
+<h3>1: Libraries</h3>
+
+<p>You will need two libraries: The main pircbot library which the entire bot relies on, and the SQLite-JDBC library for SQL commands. Both of these are JAR files. Download them from the <%= link_to "downloads section", :controller => :about, :action => :libs %>, and put them where you find them handy.</p>
+
+<p>When running the bot, you need to add these to the class-path. If your working directory is the project root, the classes lie in /out/main and you put the JARs in the project root, you can run something like the following (on one line):</p>
+
+<pre class="code">java -classpath
+out/main:pircbot-1.4.6.jar:sqlitejdbc-v056-pure.jar
+grouphug.Grouphug</pre>
+
+<p>However, most IDEs will do this automatically for you if you just specify the JARs as libraries in some way.</p>
+
+<h3>2: Logging output</h3>
+
+<p>The log output is normally redirected to the file 'log-current' in the project root.</p>
+
+<p class="note">For you windows users: Even though it doesn't have the '.txt' extension, you CAN open it as a normal text file.</p>
+
+<p>You may want to skip this redirection, for example if you're using an IDE with a console, unless you're ok with using 'tail -f' or something similar. Go to the main() method in Grouphug.java, and search for the following:</p>
+
+<pre class="code">System.setOut(stdOut);
+System.setErr(stdOut);</pre>
+
+<p>Simply comment out these two lines, and output will come right to the console.</p>
+
+<p>Just remember to uncomment them before pushing back your changes!</p>
+
+<h3>3: Channel name</h3>
+
+<p>It is probably a good idea to test out the functionality for yourself in a seperate channel. The channel variable can be found in Grouphugs.java near the top of the class. Remember to check the console even though the bot doesn't output any errors to the channel, and remember to change the channel name back before pushing back your changes!</p>
+
+<h3>4: Go!</h3>
+
+<p>When all of this is taken care of, you should be able to simply run the bot. It will use the 'grouphugs.db' file, which came from the repository, as its SQL database. It will connect from your local computer and hopefully be visible on IRC, and behaving exactly the same way the final deployed bot would behave.</p>
+
+<hr>
+
+<p>Back to the <%= link_to "guides index", :action => :index%>.</p>

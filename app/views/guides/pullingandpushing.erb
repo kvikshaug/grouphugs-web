@@ -1,0 +1,40 @@
+<% content_for :nav_guides do %> class="marked"<% end %>
+<% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Downloading and uploading<% end %>
+
+<h2>Downloading and uploading</h2>
+
+<p>In order to get anything done, you will have to be able to download the entire source code, and upload your changes. This is done through the <a href="http://github.com/murr4y/grouphugs/">github repository</a>, and you will need a <a href="http://git-scm.com/">git</a> client installed.</p>
+
+<p>This guide will assume that you are using git from a unix-like command line.</p>
+
+<h3>Downloading the repository</h3>
+
+<p>Downloading is very simple:</p>
+
+<pre class="code">git clone git://github.com/murr4y/grouphugs.git</pre>
+
+<p>This will make a clone of the entire repository. You can enter the new dir and view the latest commits:</p>
+
+<pre class="code">cd grouphugs; git log</pre>
+
+<p>Now, you're free to modify the source as you want. Feel free to <%= link_to "try out your changes", :action => :debugging %> before you move on to apply them.</p>
+
+<h3>Pushing back your changes</h3>
+
+<p>If you're one of the few trusted members of the #grouphugs channel, you can ask murr4y to add your <a href="http://help.github.com/linux-key-setup/">deploy key</a>.
+
+<p class="note">In order to gain "trusted" status in the channel, you normally need to be vouched for by an existing trusted member. If you aren't, you will have to ask us to pull from your repository for each change. If you do this regularly, while have being online for a long time and feel relatively familiar in the channel, you may eventually gain "trusted" status.</pre>
+
+<p>When this is done, you'll be able to simply push back your changes typing:</p>
+
+<pre class="code">git push origin master</pre>
+
+<p>From the git repo directory. And that's all there is to it! Check out your new changes <a href="http://github.com/murr4y/grouphugs/">online</a> if you want. They will be applied to the bot on its next restart.</p>
+
+<h3>Restarting the bot</h3>
+
+<p>Earlier, we used to have a handy little web interface that would let you restart the bot, view the latest log entries. However, after moving the bot and getting a this new setup, we haven't gotten this far yet. At this point, you'll just have to poke murr4y in <%= link_to "the channel", :controller => :about, :action => :us %> and tell him to restart it.</p>
+
+<hr>
+
+<p>Back to the <%= link_to "guides index", :action => :index%>.</p>

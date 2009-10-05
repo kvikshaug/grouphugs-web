@@ -1,0 +1,1124 @@
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 02:39:33) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 106ms (View: 94, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debuggingfail (for 192.168.2.101 at 2009-10-04 02:39:35) [GET]
+
+ActionController::UnknownAction (No action responded to debuggingfail. Actions: ):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:41:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 98ms (View: 86, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:43:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-04 04:12:09) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 98ms (View: 86, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-04 04:12:21) [GET]
+
+ActionController::RoutingError (No route matches "/welcome/howitworks" with {:method=>:get}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing AboutController#howitworks (for 192.168.2.101 at 2009-10-04 04:12:25) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://spittle/about/howitworks]
+
+
+Processing AboutController#us (for 192.168.2.101 at 2009-10-04 04:12:27) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://spittle/about/us]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-04 04:13:04) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 97ms (View: 85, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing AboutController#howitworks (for 192.168.2.101 at 2009-10-04 04:13:09) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://spittle/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 192.168.2.101 at 2009-10-04 04:13:12) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 40ms (View: 39, DB: 0) | 200 OK [http://spittle/about/whatyoucando]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-04 04:13:17) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing AboutController#us (for 192.168.2.101 at 2009-10-04 04:13:22) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://spittle/about/us]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-04 04:13:27) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 04:13:38) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 48ms (View: 37, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 04:13:54) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 37ms (View: 36, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing ApplicationController#index (for 192.168.2.100 at 2009-10-04 12:58:49) [OPTIONS]
+
+ActionController::RoutingError (No route matches "/Regulus41/Regulus41d.exe" with {:method=>:options}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing AboutController#howitworks (for 192.168.2.101 at 2009-10-04 14:25:34) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://spittle/about/howitworks]
+
+
+Processing AboutController#howitworks (for 192.168.2.101 at 2009-10-04 14:25:42) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://spittle/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 192.168.2.101 at 2009-10-04 14:25:43) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://spittle/about/whatyoucando]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 14:25:45) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 14:25:48) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-04 14:25:52) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing AboutController#us (for 192.168.2.101 at 2009-10-04 14:25:54) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://spittle/about/us]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-04 14:41:22) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-04 14:41:27) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-04 14:43:47) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-04 14:44:28) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 111ms (View: 99, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 14:44:30) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 49ms (View: 37, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 14:44:42) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 37ms (View: 36, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#writingmodules (for 192.168.2.101 at 2009-10-04 14:44:43) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://spittle/guides/writingmodules]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 14:44:44) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 42ms (View: 41, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 14:47:12) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 14:49:01) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 110ms (View: 98, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-04 14:49:16) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing AboutController#us (for 192.168.2.101 at 2009-10-04 14:49:17) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://spittle/about/us]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-04 14:49:20) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 14:49:46) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 14:50:42) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 36ms (View: 35, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 14:51:16) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-04 16:29:47) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 101ms (View: 89, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing AboutController#index (for 158.39.124.4 at 2009-10-04 16:45:15) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 158.39.124.4 at 2009-10-04 16:45:23) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing GuidesController#index (for 158.39.124.4 at 2009-10-04 16:45:28) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 52ms (View: 41, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides]
+
+
+Processing GuidesController#debugging (for 158.39.124.4 at 2009-10-04 16:45:31) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 38ms (View: 37, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/debugging]
+
+
+Processing AboutController#index (for 158.39.124.4 at 2009-10-04 16:47:45) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-04 16:51:45) [GET]
+
+ActionController::RoutingError (No route matches "/lol" with {:method=>:get}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing AboutController#index (for 128.39.61.222 at 2009-10-04 16:54:32) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#howitworks (for 128.39.61.222 at 2009-10-04 16:54:40) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 128.39.61.222 at 2009-10-04 16:54:46) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 308ms (View: 306, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/whatyoucando]
+
+
+Processing AboutController#index (for 128.30.52.70 at 2009-10-04 16:54:53) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://84.49.64.103/]
+
+
+Processing GuidesController#index (for 128.39.61.222 at 2009-10-04 16:55:02) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides]
+
+
+Processing AboutController#libs (for 128.39.61.222 at 2009-10-04 16:55:07) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/libs]
+
+
+Processing AboutController#us (for 128.39.61.222 at 2009-10-04 16:55:08) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/us]
+
+
+Processing AboutController#index (for 128.30.52.70 at 2009-10-04 16:55:09) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://84.49.64.103/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 17:09:01) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 17:09:06) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 36ms (View: 35, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 17:10:47) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-04 17:13:15) [GET]
+
+ActionController::RoutingError (No route matches "/about-us.html" with {:method=>:get}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 193.198.97.7 at 2009-10-04 17:13:50) [GET]
+
+ActionController::RoutingError (No route matches "//phpMyAdmin/" with {:method=>:get}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 193.198.97.7 at 2009-10-04 17:13:50) [GET]
+
+ActionController::RoutingError (No route matches "//phpmyadmin/" with {:method=>:get}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 193.198.97.7 at 2009-10-04 17:13:51) [GET]
+
+ActionController::RoutingError (No route matches "//mysql/" with {:method=>:get}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 193.198.97.7 at 2009-10-04 17:13:51) [GET]
+
+ActionController::RoutingError (No route matches "//" with {:method=>:get}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 17:14:46) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 106ms (View: 95, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing AboutController#us (for 192.168.2.101 at 2009-10-04 17:14:48) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/about/us]
+
+
+Processing AboutController#index (for 81.22.244.205 at 2009-10-04 17:20:27) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 81.22.244.205 at 2009-10-04 17:20:40) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 85.165.89.93 at 2009-10-04 17:32:02) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 128.30.52.71 at 2009-10-04 17:32:13) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 193.91.151.87 at 2009-10-04 17:32:26) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 34ms (View: 27, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 193.91.151.87 at 2009-10-04 17:32:26) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing GuidesController#index (for 85.165.89.93 at 2009-10-04 17:32:36) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides]
+
+
+Processing GuidesController#pullingandpushing (for 85.165.89.93 at 2009-10-04 17:32:38) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 301ms (View: 300, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/pullingandpushing]
+
+
+Processing AboutController#libs (for 85.165.89.93 at 2009-10-04 17:32:47) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 28ms (View: 27, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/libs]
+
+
+Processing AboutController#us (for 85.165.89.93 at 2009-10-04 17:32:49) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/us]
+
+
+Processing AboutController#whatyoucando (for 85.165.89.93 at 2009-10-04 17:32:51) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 40ms (View: 38, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/whatyoucando]
+
+
+Processing GuidesController#debugging (for 85.165.89.93 at 2009-10-04 17:33:05) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/debugging]
+
+
+Processing AboutController#whatyoucando (for 85.165.89.93 at 2009-10-04 17:34:05) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/whatyoucando]
+
+
+Processing AboutController#howitworks (for 85.165.89.93 at 2009-10-04 17:34:08) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 32ms (View: 30, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 85.165.89.93 at 2009-10-04 17:34:26) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/whatyoucando]
+
+
+Processing AboutController#howitworks (for 85.165.89.93 at 2009-10-04 17:35:39) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 85.165.89.93 at 2009-10-04 17:36:32) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/whatyoucando]
+
+
+Processing GuidesController#index (for 85.165.89.93 at 2009-10-04 17:36:33) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides]
+
+
+Processing GuidesController#writingmodules (for 85.165.89.93 at 2009-10-04 17:36:38) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/writingmodules]
+
+
+Processing AboutController#libs (for 85.165.89.93 at 2009-10-04 17:36:47) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/libs]
+
+
+Processing GuidesController#index (for 85.165.89.93 at 2009-10-04 17:37:04) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides]
+
+
+Processing GuidesController#pullingandpushing (for 85.165.89.93 at 2009-10-04 17:37:06) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/pullingandpushing]
+
+
+Processing AboutController#whatyoucando (for 193.91.151.87 at 2009-10-04 17:38:23) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/whatyoucando]
+
+
+Processing AboutController#index (for 158.39.125.48 at 2009-10-04 19:11:56) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 128.30.52.71 at 2009-10-04 19:13:31) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#howitworks (for 158.39.125.48 at 2009-10-04 19:14:48) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 158.39.125.48 at 2009-10-04 19:16:06) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/whatyoucando]
+
+
+Processing AboutController#index (for 80.202.23.247 at 2009-10-04 19:56:27) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 85.165.89.93 at 2009-10-04 20:26:35) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#libs (for 85.165.89.93 at 2009-10-04 20:26:39) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/libs]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-04 21:15:01) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://192.168.2.103/]
+
+
+Processing AboutController#howitworks (for 192.168.2.101 at 2009-10-04 21:16:30) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://192.168.2.103/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 192.168.2.101 at 2009-10-04 21:16:37) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://192.168.2.103/about/whatyoucando]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 21:16:47) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://192.168.2.103/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 21:16:51) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://192.168.2.103/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 21:17:33) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://192.168.2.103/guides/debugging]
+
+
+Processing AboutController#us (for 192.168.2.101 at 2009-10-04 21:17:36) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://192.168.2.103/about/us]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-04 21:22:11) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://192.168.2.103/about/libs]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 21:22:51) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://192.168.2.103/guides/debugging]
+
+
+Processing AboutController#whatyoucando (for 192.168.2.101 at 2009-10-04 21:23:14) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 30ms (View: 28, DB: 0) | 200 OK [http://192.168.2.103/about/whatyoucando]
+
+
+Processing AboutController#howitworks (for 192.168.2.101 at 2009-10-04 21:23:19) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://192.168.2.103/about/howitworks]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 21:23:23) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 34ms (View: 33, DB: 0) | 200 OK [http://192.168.2.103/guides]
+
+
+Processing AboutController#whatyoucando (for 192.168.2.101 at 2009-10-04 21:23:36) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://192.168.2.103/about/whatyoucando]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 21:26:04) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://192.168.2.103/guides]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 21:26:09) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 43ms (View: 41, DB: 0) | 200 OK [http://192.168.2.103/guides/usingsql]
+
+
+Processing GuidesController#managingsql (for 192.168.2.101 at 2009-10-04 21:26:23) [GET]
+Rendering template within layouts/application
+Rendering guides/managingsql
+Completed in 37ms (View: 36, DB: 0) | 200 OK [http://192.168.2.103/guides/managingsql]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 21:28:23) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://192.168.2.103/guides]
+
+
+Processing GuidesController#writingmodules (for 192.168.2.101 at 2009-10-04 21:28:50) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://192.168.2.103/guides/writingmodules]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-05 00:10:29) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-05 00:41:31) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing AboutController#howitworks (for 192.168.2.101 at 2009-10-05 00:43:39) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://spittle/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 192.168.2.101 at 2009-10-05 00:43:42) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://spittle/about/whatyoucando]
+
+
+Processing AboutController#aboutus (for 192.168.2.101 at 2009-10-05 00:43:46) [GET]
+
+ActionController::UnknownAction (No action responded to aboutus. Actions: ):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-05 00:46:39) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 107ms (View: 96, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing AboutController#whatyoucando (for 192.168.2.101 at 2009-10-05 00:46:44) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 49ms (View: 38, DB: 0) | 200 OK [http://spittle/about/whatyoucando]
+
+
+Processing AboutController#us (for 192.168.2.101 at 2009-10-05 00:46:45) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://spittle/about/us]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-05 00:47:08) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-05 00:47:26) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-05 00:47:28) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 36ms (View: 34, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-05 00:47:56) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 25ms (View: 24, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 01:02:04) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 01:35:57) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 01:36:43) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 02:03:33) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 02:07:01) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 02:08:42) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 222.141.50.175 at 2009-10-05 07:22:30) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://www.baidu.com/]
+
+
+Processing ApplicationController#index (for 192.168.2.100 at 2009-10-05 10:54:58) [OPTIONS]
+
+ActionController::RoutingError (No route matches "/Regulus41/Regulus41d.exe" with {:method=>:options}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 13:03:02) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 13:04:52) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 13:07:44) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 13:09:27) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 195.159.0.90 at 2009-10-05 16:46:22) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 195.159.0.90 at 2009-10-05 16:47:26) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 195.159.0.90 at 2009-10-05 17:09:07) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing ApplicationController#index (for 192.168.2.100 at 2009-10-05 18:19:40) [OPTIONS]
+
+ActionController::RoutingError (No route matches "/Regulus41/Regulus41d.exe" with {:method=>:options}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 192.168.2.100 at 2009-10-05 19:56:07) [OPTIONS]
+
+ActionController::RoutingError (No route matches "/Regulus41/Regulus41d.exe" with {:method=>:options}):
+  
+
+Rendering /home/murray/web/public/404.html (404 Not Found)
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-05 21:00:36) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-05 21:01:31) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-05 21:07:45) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-05 21:07:46) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing AboutController#index (for 80.202.23.247 at 2009-10-05 21:27:51) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#howitworks (for 80.202.23.247 at 2009-10-05 21:27:56) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 28ms (View: 26, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/howitworks]
+
+
+Processing AboutController#howitworks (for 80.202.23.247 at 2009-10-05 21:28:03) [GET]
+Rendering template within layouts/application
+Rendering about/howitworks
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/howitworks]
+
+
+Processing AboutController#whatyoucando (for 80.202.23.247 at 2009-10-05 21:28:08) [GET]
+Rendering template within layouts/application
+Rendering about/whatyoucando
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/whatyoucando]
+
+
+Processing GuidesController#index (for 80.202.23.247 at 2009-10-05 21:28:18) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides]
+
+
+Processing GuidesController#pullingandpushing (for 80.202.23.247 at 2009-10-05 21:28:25) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 80.202.23.247 at 2009-10-05 21:28:35) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/debugging]
+
+
+Processing GuidesController#writingmodules (for 80.202.23.247 at 2009-10-05 21:28:41) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/writingmodules]
+
+
+Processing AboutController#libs (for 80.202.23.247 at 2009-10-05 21:28:46) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/libs]
+
+
+Processing AboutController#us (for 80.202.23.247 at 2009-10-05 21:28:49) [GET]
+Rendering template within layouts/application
+Rendering about/us
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://gh.kvikshaug.no/about/us]
+
+
+Processing AboutController#index (for 80.202.23.247 at 2009-10-05 21:28:53) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-05 21:55:37) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing AboutController#libs (for 192.168.2.101 at 2009-10-05 21:55:39) [GET]
+Rendering template within layouts/application
+Rendering about/libs
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://spittle/about/libs]
+
+
+Processing AboutController#index (for 85.165.89.93 at 2009-10-05 22:11:50) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://gh.kvikshaug.no/]
+
+
+Processing GuidesController#index (for 85.165.89.93 at 2009-10-05 22:15:52) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides]
+
+
+Processing GuidesController#debugging (for 85.165.89.93 at 2009-10-05 22:15:54) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://gh.kvikshaug.no/guides/debugging]
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 23:48:55) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 23:50:48) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-05 23:58:19) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-06 00:01:25) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 89.208.34.164 at 2009-10-06 00:05:45) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-06 00:07:32) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-06 00:07:34) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 31ms (View: 29, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-06 00:07:35) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing AboutController#index (for 195.159.0.90 at 2009-10-06 00:12:55) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 192.168.2.101 at 2009-10-06 00:17:09) [GET]
+Rendering template within layouts/application
+Rendering about/index
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-06 00:17:12) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-06 00:17:13) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 24ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing AboutController#index (for 195.159.0.90 at 2009-10-06 00:24:52) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)
+
+
+Processing AboutController#index (for 195.159.0.90 at 2009-10-06 00:30:48) [POST]
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendering /home/murray/web/public/422.html (422 Unprocessable Entity)

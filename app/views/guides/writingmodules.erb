@@ -1,0 +1,14 @@
+<% content_for :nav_guides do %> class="marked"<% end %>
+<% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Writing modules<% end %>
+
+<h2>Writing modules</h2>
+
+<p>The current way of writing modules is to extend the GrouphugModule interface, put the class in the grouphug.modules package, add a new instance of it to the modules vector (in Grouphug.java in the main() method).</p>
+
+<p>However, we are hoping to rewrite this design to something better, where you don't HAVE to implement all the methods, but only those you want to - by registering for events. Therefore, this guide will be postponed.</p>
+
+<p class="note">If you really want to write a new module with the current design, just check out the existing modules - you will probably quickly learn the general principles.</p>
+
+<hr>
+
+<p>Back to the <%= link_to "guides index", :action => :index%>.</p>

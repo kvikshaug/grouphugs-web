@@ -1,0 +1,158 @@
+/* font and decoration */
+
+body {
+  background: #fff;
+  font: .74em "Trebuchet MS" Verdana, Arial, sans-serif;
+  line-height: 1.5em; 
+}
+
+a { color: #3b6ebf; text-decoration: none; }
+a:hover { text-decoration: underline; }
+header h1 a { font-size: 22px; color: #fff; text-decoration: none; }
+
+/* marking the selected navigation item */
+
+li.marked a {
+  color: #000;
+}
+
+/* note and code blocks, courtesy of guides.rubyonrails.org */
+
+p.note {
+  background: #fff9d8 url(../res/note.png) no-repeat left top;
+  padding: 20px 15px 15px 48px;
+  font-size: 12px;
+  line-height: 120%;
+  min-height: 25px;
+}
+
+pre.code {
+  background: #eee url(../res/code.png) no-repeat left top;
+  padding: 20px 15px 15px 48px;
+  font-size: 12px;
+  line-height: 120%;
+  min-height: 25px;
+}
+
+
+/* download paragraphs are small and inline */
+
+h3.downloads, p.downloads {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div#article ul, #div#article ul li {
+  margin-left: 15px;
+  padding: 0;
+}
+
+p.shout {
+  margin-top: 25px;
+  margin-bottom: 14px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* 4 lines */
+
+#linewrap {
+  margin: 20px auto;
+  width: 724px;
+  background: #fff url('/res/midbg.jpg');
+  background-repeat: repeat-y;
+}
+
+#linetop { 
+  background: #fff url('/res/topbg.jpg');
+  height: 30px;
+}
+
+#linebottom {
+  clear: both;
+  background: #fff url('/res/botbg.jpg');
+  height: 30px;
+}
+
+/* sections */
+
+#content {
+  padding: 0 40px 0 40px;
+}
+
+header {
+  display: block; /* for non-html5 capable browsers */
+  height: 100px;
+  background: #85acf7 url('/res/hidr.jpg');
+}
+
+header img {
+  float: right;
+  margin-top: 3px;
+}
+
+header h1 {
+  margin: 0;
+  padding-left: 17px;
+  padding-top: 22px;
+}
+
+header p.motto {
+  margin: 0;
+  padding-left: 17px;
+  padding-top: 0px;
+  font-size: 17px;
+  color: #FFF;
+}
+
+#breadcrumbs {
+  background: #f6f9fb;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 5px;
+}
+  
+article {
+  float: left;
+  width: 70%;
+  margin: 0 10px;
+  padding: 1% 1%;
+  text-align: justify;
+}
+
+article h2 {
+  color: #3b6ebf;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+nav {
+  display: block; /* for non-html5 capable browsers */
+  float: left;
+  margin: 0 10px;
+  padding: 1% 1%;
+}
+
+nav ul {
+  padding: 20px 0 15px 20px;
+  margin:0;
+}
+
+nav li {
+  margin-bottom:5px;
+  list-style-type: square;
+  color: #3b6ebf;
+}
+
+nav h2 {
+  color: #3b6ebf;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+footer {
+  display: block; /* for non-html5 capable browsers */
+  text-align: center;
+  color: #666;
+}
+

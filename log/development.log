@@ -1,0 +1,3557 @@
+
+
+Processing Rails::InfoController#properties (for 192.168.2.101 at 2009-10-03 17:24:56) [GET]
+  [4;36;1mSQL (31.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 183ms (View: 23, DB: 32) | 200 OK [http://spittle/rails/info/properties]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 17:57:43) [GET]
+
+ActionController::RoutingError (No route matches "/oy" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing Rails::InfoController#properties (for 192.168.2.101 at 2009-10-03 17:57:44) [GET]
+  [4;36;1mSQL (1.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 207ms (View: 16, DB: 2) | 200 OK [http://spittle/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 192.168.2.101 at 2009-10-03 18:18:24) [GET]
+  [4;36;1mSQL (1.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 105ms (View: 12, DB: 2) | 200 OK [http://spittle/rails/info/properties]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 18:24:03) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 18:24:04) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:06:47) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:07:01) [GET]
+
+ActionView::MissingTemplate (Missing template welcome/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:07:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 88ms (View: 77, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:07:14) [GET]
+
+ActionController::RoutingError (No route matches "/res/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:07:14) [GET]
+
+ActionController::RoutingError (No route matches "/hug-qstmrk.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:08:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 374ms (View: 362, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:08:20) [GET]
+
+ActionController::RoutingError (No route matches "/hug-qstmrk.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:08:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 18ms (View: 6, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:08:44) [GET]
+
+ActionController::RoutingError (No route matches "/hug-qstmrk.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:09:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 53ms (View: 41, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:10:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 51ms (View: 39, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:19:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 146ms (View: 135, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing HowItWorksController#index (for 192.168.2.101 at 2009-10-03 19:19:43) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:20:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 55ms (View: 44, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:20:15) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:20:34) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:20:36) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:20:40) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:20:59) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:20:59) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:20:59) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:21:00) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:21:00) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:21:02) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:21:12) [GET]
+
+NameError (uninitialized constant HowItWorksController):
+  
+
+Rendered rescues/_trace (308.1ms)
+Rendered rescues/_request_and_response (9.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HowItWorksController#index (for 192.168.2.101 at 2009-10-03 19:22:13) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:22:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 20ms (View: 8, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 19:32:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 59ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:32:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/hidr.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:32:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/topbg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:32:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/midbg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 19:32:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/botbg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:19:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 20ms (View: 8, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:19:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 20ms (View: 8, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:19:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 20ms (View: 8, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:19:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 8, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 20:22:18) [GET]
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:22:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+
+ActionView::TemplateError (No route matches {:controller=>"how-it-works", :action=>"index"}) on line #10 of app/views/welcome/index.erb:
+7:   <br><!-- remove this when * margin: 0 is removed from css -->
+8:   <p>The bot's main purpose is to hug, entertain, insult and/or inform its users in any way imaginable.</p>
+9:   <br><!-- remove this when * margin: 0 is removed from css -->
+10:   <p>We use <%= link_to "different technologies", :controller => "how-it-works" %><a href="how-it-works.html">different technologies</a> in order to achieve this, so for the developers, this is nothing more than a fun way to train our programming skills.</p>
+11:   <br>
+12:   <hr>
+13:   <br>
+
+    app/views/welcome/index.erb:10
+
+Rendered rescues/_trace (470.3ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:25:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 20ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 20:27:07) [GET]
+
+SyntaxError (/home/murray/web/app/controllers/welcome_controller.rb:6: syntax error, unexpected '-', expecting '\n' or ';'
+  def how-it-works
+          ^
+/home/murray/web/app/controllers/welcome_controller.rb:9: syntax error, unexpected '-', expecting '\n' or ';'
+  def what-you-can-do
+           ^
+/home/murray/web/app/controllers/welcome_controller.rb:9: syntax error, unexpected kDO):
+  
+
+Rendered rescues/_trace (343.2ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:27:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 20ms (View: 8, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 20:27:50) [GET]
+
+ActionView::MissingTemplate (Missing template welcome/howitworks.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 20:28:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 49ms (View: 38, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#stylesheets to css (for 192.168.2.101 at 2009-10-03 20:28:01) [GET]
+  Parameters: {"id"=>"style"}
+
+ActionController::UnknownAction (No action responded to stylesheets. Actions: howitworks and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#res to png (for 192.168.2.101 at 2009-10-03 20:28:02) [GET]
+  Parameters: {"id"=>"hug-qstmrk"}
+
+ActionController::UnknownAction (No action responded to res. Actions: howitworks and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 20:28:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 53ms (View: 41, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:44:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 430ms (View: 419, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:46:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 57ms (View: 45, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:46:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 56ms (View: 44, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:46:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 56ms (View: 44, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:46:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 55ms (View: 43, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:47:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 55ms (View: 43, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:47:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 55ms (View: 43, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:47:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 20ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:48:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 59ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:49:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 20:49:44) [GET]
+
+NoMethodError (undefined method `content_for' for #<GuidesController:0xb61cbbe4>):
+  app/controllers/guides_controller.rb:4:in `index'
+
+Rendered rescues/_trace (348.7ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 20:50:44) [GET]
+
+ActionView::MissingTemplate (Missing template guides/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:50:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:51:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:53:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 385ms (View: 373, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:53:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 59ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:54:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:55:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 56ms (View: 44, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:56:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:57:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 20:58:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:00:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:00:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:00:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 27ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:04:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 21:04:20) [GET]
+
+ActionView::MissingTemplate (Missing template guides/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 21:04:37) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 53ms (View: 41, DB: 0) | 200 OK [http://spittle/guides/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:05:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 46, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:07:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:08:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:09:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 46, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:10:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:10:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:10:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:10:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:11:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:11:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:11:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:14:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:14:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:14:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:15:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:15:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:16:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:16:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:17:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 46, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:17:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:18:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:18:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:18:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:20:17) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:20:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:20:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:21:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 23ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:22:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:22:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:22:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:22:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:22:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:22:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:22:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:22:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:23:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:23:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:23:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:24:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:24:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:24:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:24:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:24:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:25:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 325ms (View: 313, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:25:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 21:26:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:02:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 59ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 22:02:59) [GET]
+
+ActionController::RoutingError (No route matches "/hug-qstmrk.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:03:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 59ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 22:03:48) [GET]
+
+ActionController::RoutingError (No route matches "/res/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:03:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 22:03:57) [GET]
+
+ActionController::RoutingError (No route matches "/res/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:04:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 58ms (View: 47, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:04:43) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:04:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 23ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:04:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:04:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:05:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:05:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:05:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 9, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:05:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 41ms (View: 22, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:06:06) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 56ms (View: 44, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:07:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:07:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 24ms (View: 13, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:07:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:07:26) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:07:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:07:44) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:07:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 21ms (View: 10, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:08:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+
+ActionView::TemplateError (undefined local variable or method `welcome' for #<ActionView::Base:0xb615569c>) on line #33 of app/views/layouts/application.rhtml:
+30:     <div id="navigation">
+31:     <h2>Navigation</h2>
+32:     <ul>
+33:       <li<%= yield :nav_welcome %>><%= link_to "Welcome", :controller => welcome %></li>
+34:       <li<%= yield :nav_howitworks %>><a href="how-it-works.html">How it works</a></li>
+35:       <li<%= yield :nav_whatyoucando %>><a href="what-you-can-do.html">What you can do</a></li>
+36:       <li<%= yield :nav_guides %>><a href="guides.html">Guides</a></li>
+
+    app/views/layouts/application.rhtml:33:in `_run_rhtml_app47views47layouts47application46rhtml'
+
+Rendered rescues/_trace (423.5ms)
+Rendered rescues/_request_and_response (58.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:09:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 63ms (View: 51, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:09:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 66ms (View: 54, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:09:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 22ms (View: 10, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:10:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+ERROR: compiling _run_rhtml_app47views47layouts47application46rhtml RAISED compile error
+/home/murray/web/app/views/layouts/application.rhtml:35: syntax error, unexpected '<'
+...", :action => :whatyoucando %</li>
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:36: unknown regexp option - l
+/home/murray/web/app/views/layouts/application.rhtml:36: unmatched ): /li>
+      <li<%= yield :nav_guides ).to_s); @output_buffer.concat ">"; @output_buffer.concat(( link_to "Guides", :controller => :guides ).to_s); @output_buffer.concat "</
+/home/murray/web/app/views/layouts/application.rhtml:36: syntax error, unexpected $undefined
+... @output_buffer.concat "</li>\n      <li"
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:36: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+/home/murray/web/app/views/layouts/application.rhtml:37: syntax error, unexpected tCONSTANT, expecting ')'
+...er.concat(( link_to "Downloads", :action => :libs ).to_s); @...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:38: unknown regexp option - l
+/home/murray/web/app/views/layouts/application.rhtml:38: syntax error, unexpected $undefined
+... @output_buffer.concat "</li>\n    </ul>\n    </div>\n  </di...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:38: unknown regexp options - dv
+/home/murray/web/app/views/layouts/application.rhtml:38: syntax error, unexpected $undefined
+..."</li>\n    </ul>\n    </div>\n  </div>\n  <div id=\"linebot...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:38: unknown regexp options - dv
+/home/murray/web/app/views/layouts/application.rhtml:38: syntax error, unexpected $undefined
+...<div id=\"linebottom\"></div>\n</div>\n\n<!-- should be 'foo...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:38: syntax error, unexpected $undefined
+...a href=\"http://www.oswd.org/\">OSWD</a> by <a href=\"http:/...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:55: syntax error, unexpected kENSURE, expecting ')'
+/home/murray/web/app/views/layouts/application.rhtml:57: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_rhtml_app47views47layouts47application46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html>\n<html>\n<head>\n  <title>Grouphugs</title>\n  <link rel=\"stylesheet\" type=\"text/css\" href=\"/stylesheets/style.css\" media=\"screen\">\n</head>\n\n<body>\n<div id=\"linewrap\">\n\n  <div id=\"linetop\"></div>\n\n  <div id=\"content\">\n    <!-- should be 'header' element -->\n    <div id=\"header\">\n      <img src=\"/res/hug-qstmrk.png\" alt=\"Cute little alien says: hug?\">\n      <h1><a href=\"#\">Grouphugs</a></h1>\n      <p class=\"motto\">Free hugs for everyone!</p>\n    </div>\n\n    <div id=\"breadcrumbs\">\n      "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( yield :breadcrumbs ).to_s); @output_buffer.concat "\n    </div>\n\n    <div id=\"article\">\n      "
+
+
+
+; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n    </div>\n\n    <!-- should be 'nav' element -->\n    <div id=\"navigation\">\n    <h2>Navigation</h2>\n    <ul>\n      <li"
+
+
+
+
+
+
+; @output_buffer.concat(( yield :nav_welcome ).to_s); @output_buffer.concat ">"; @output_buffer.concat(( link_to "Welcome", :controller => :index ).to_s); @output_buffer.concat "</li>\n      <li"
+; @output_buffer.concat(( yield :nav_howitworks ).to_s); @output_buffer.concat ">"; @output_buffer.concat(( link_to "How it works", :action => :howitworks ).to_s); @output_buffer.concat "</li>\n      <li"
+; @output_buffer.concat(( yield :nav_whatyoucando ).to_s); @output_buffer.concat ">"; @output_buffer.concat(( link_to "What you can do", :action => :whatyoucando %</li>
+      <li<%= yield :nav_guides ).to_s); @output_buffer.concat ">"; @output_buffer.concat(( link_to "Guides", :controller => :guides ).to_s); @output_buffer.concat "</li>\n      <li"
+; @output_buffer.concat(( yield :nav_libs ).to_s); @output_buffer.concat ">"; @output_buffer.concat(( link_to "Downloads", :action => :libs ).to_s); @output_buffer.concat "</li>\n      <li"
+; @output_buffer.concat(( yield :nav_aboutus ).to_s); @output_buffer.concat ">"; @output_buffer.concat(( link_to "About us", :action => :aboutus ).to_s); @output_buffer.concat "</li>\n    </ul>\n    </div>\n  </div>\n  <div id=\"linebottom\"></div>\n</div>\n\n<!-- should be 'footer' element -->\n<div id=\"footer\">\n  Original design from <a href=\"http://www.oswd.org/\">OSWD</a> by <a href=\"http://www.minimalistic-design.net\">Minimalistic Design</a><br>\n  Rewritten to <a href=\"http://html5.org/\">HTML5</a> by Alex Kvikshaug<br />\n  Site runs on <a href=\"\">RoR</a> using <a href=\"\">Mongrel</a>\n</div>\n\n</body>\n</html>\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/murray/web/app/views/layouts/application.rhtml:57:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:347:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/home/murray/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/murray/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/murray/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/murray/.gem/ruby/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/home/murray/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/home/murray/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/home/murray/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/murray/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/home/murray/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/home/murray/.gem/ruby/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/home/murray/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/home/murray/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/home/murray/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/home/murray/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/home/murray/.gem/ruby/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+/usr/bin/mongrel_rails:19:in `load'
+/usr/bin/mongrel_rails:19
+
+ActionView::TemplateError (compile error
+/home/murray/web/app/views/layouts/application.rhtml:35: syntax error, unexpected '<'
+...", :action => :whatyoucando %</li>
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:36: unknown regexp option - l
+/home/murray/web/app/views/layouts/application.rhtml:36: unmatched ): /li>
+      <li<%= yield :nav_guides ).to_s); @output_buffer.concat ">"; @output_buffer.concat(( link_to "Guides", :controller => :guides ).to_s); @output_buffer.concat "</
+/home/murray/web/app/views/layouts/application.rhtml:36: syntax error, unexpected $undefined
+... @output_buffer.concat "</li>\n      <li"
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:36: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+/home/murray/web/app/views/layouts/application.rhtml:37: syntax error, unexpected tCONSTANT, expecting ')'
+...er.concat(( link_to "Downloads", :action => :libs ).to_s); @...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:38: unknown regexp option - l
+/home/murray/web/app/views/layouts/application.rhtml:38: syntax error, unexpected $undefined
+... @output_buffer.concat "</li>\n    </ul>\n    </div>\n  </di...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:38: unknown regexp options - dv
+/home/murray/web/app/views/layouts/application.rhtml:38: syntax error, unexpected $undefined
+..."</li>\n    </ul>\n    </div>\n  </div>\n  <div id=\"linebot...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:38: unknown regexp options - dv
+/home/murray/web/app/views/layouts/application.rhtml:38: syntax error, unexpected $undefined
+...<div id=\"linebottom\"></div>\n</div>\n\n<!-- should be 'foo...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:38: syntax error, unexpected $undefined
+...a href=\"http://www.oswd.org/\">OSWD</a> by <a href=\"http:/...
+                              ^
+/home/murray/web/app/views/layouts/application.rhtml:55: syntax error, unexpected kENSURE, expecting ')'
+/home/murray/web/app/views/layouts/application.rhtml:57: syntax error, unexpected kEND, expecting ')') on line #35 of app/views/layouts/application.rhtml:
+32:     <ul>
+33:       <li<%= yield :nav_welcome %>><%= link_to "Welcome", :controller => :index %></li>
+34:       <li<%= yield :nav_howitworks %>><%= link_to "How it works", :action => :howitworks %></li>
+35:       <li<%= yield :nav_whatyoucando %>><%= link_to "What you can do", :action => :whatyoucando %</li>
+36:       <li<%= yield :nav_guides %>><%= link_to "Guides", :controller => :guides %></li>
+37:       <li<%= yield :nav_libs %>><%= link_to "Downloads", :action => :libs %></li>
+38:       <li<%= yield :nav_aboutus %>><%= link_to "About us", :action => :aboutus %></li>
+
+    app/views/layouts/application.rhtml:57:in `compile!'
+
+Rendered rescues/_trace (411.9ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:11:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 74ms (View: 63, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 22:11:09) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 32ms (View: 20, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 22:11:18) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 18, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:11:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 32ms (View: 18, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:13:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 36ms (View: 24, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:13:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 66ms (View: 55, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:14:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 33ms (View: 21, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:17:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 66ms (View: 54, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:18:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 32ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:19:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 65ms (View: 54, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:19:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 121ms (View: 57, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:19:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:20:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:20:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 66ms (View: 55, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:20:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 66ms (View: 55, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:21:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 66ms (View: 54, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:24:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 62ms (View: 51, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:24:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:24:35) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 33ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:24:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:24:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:25:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:25:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:25:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 63ms (View: 51, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:25:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:26:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:26:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:26:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 32ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:27:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 64ms (View: 52, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 22:27:19) [GET]
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:27:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 69ms (View: 57, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:27:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 67ms (View: 56, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:27:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 22:27:26) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 29ms (View: 18, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:27:27) [GET]
+
+ActionController::UnknownAction (No action responded to whatyoucando. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 22:28:57) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 71ms (View: 59, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:28:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 406ms (View: 394, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:29:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:29:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 69ms (View: 57, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:29:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 22:29:03) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 18, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:29:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:29:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 22:29:05) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:29:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 33ms (View: 21, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:38:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 33ms (View: 21, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:40:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 33ms (View: 21, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:40:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 33ms (View: 21, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:41:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 362ms (View: 22, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:45:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:46:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 36ms (View: 22, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:47:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 70ms (View: 58, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:47:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:48:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:48:34) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 70ms (View: 59, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:48:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 33ms (View: 21, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:49:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 70ms (View: 59, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:50:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 74ms (View: 60, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 22:50:23) [GET]
+
+ActionController::RoutingError (No route matches "/how-it-works" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:50:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 74ms (View: 63, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 22:50:43) [GET]
+
+ActionController::RoutingError (No route matches "/howitworks" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:50:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 78ms (View: 64, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:50:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 34ms (View: 23, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:50:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 34ms (View: 23, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:50:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:50:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 35ms (View: 24, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:51:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 34ms (View: 23, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:51:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 22:51:10) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 355ms (View: 69, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:51:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:52:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 71ms (View: 59, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:52:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 71ms (View: 59, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:52:19) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:52:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 38ms (View: 25, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:52:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 35ms (View: 24, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 22:52:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 22:52:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 34ms (View: 23, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:52:41) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:53:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 66ms (View: 54, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:53:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 68ms (View: 56, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:53:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 67ms (View: 56, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 22:56:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 76ms (View: 65, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 22:56:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 22:59:44) [GET]
+
+ActionController::RoutingError (No route matches "/sqlitejdbc-v056-pure.jarr" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 23:00:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#sqlitebrowser (for 192.168.2.101 at 2009-10-03 23:01:02) [GET]
+
+ActionController::UnknownAction (No action responded to sqlitebrowser. Actions: howitworks and index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 23:01:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 69ms (View: 57, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 23:03:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 23:03:27) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 23:03:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 23:04:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 71ms (View: 59, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 23:05:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 23:05:01) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 23:05:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 63ms (View: 51, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 23:05:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 41ms (View: 27, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 23:05:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 72ms (View: 60, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 23:05:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 37ms (View: 25, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 23:05:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 23:05:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 23:05:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:06:08) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 18, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:08:14) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 64ms (View: 53, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:09:21) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:09:36) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:09:44) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 30ms (View: 19, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:11:54) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 81ms (View: 69, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:12:01) [GET]
+
+ActionController::UnknownAction (No action responded to pullingandpushing. Actions: index):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:13:29) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 68ms (View: 57, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:14:04) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 36ms (View: 25, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:21:40) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 39ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:22:14) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing ApplicationController#index (for 192.168.2.101 at 2009-10-03 23:22:14) [GET]
+
+ActionController::RoutingError (No route matches "/res/code.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:22:35) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 33ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:23:15) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 33ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:23:24) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 35ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:23:31) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 35ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:23:35) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 36ms (View: 24, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:23:46) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:23:56) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:24:03) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:24:13) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:24:21) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:24:32) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 33ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:24:38) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 35ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:24:47) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:27:57) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:28:06) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:28:21) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:29:14) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 66ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:29:52) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:30:51) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 66ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:31:15) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 69ms (View: 57, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:33:14) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:34:44) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:34:50) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:35:05) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:35:18) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:35:36) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 70ms (View: 59, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:35:46) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 66ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:35:55) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 35ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:35:58) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:36:03) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:36:07) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:36:13) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:36:19) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:36:25) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:36:32) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:37:17) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:37:35) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 69ms (View: 57, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:37:42) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 69ms (View: 57, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:37:51) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:37:57) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:41:08) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:41:09) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 74ms (View: 63, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-03 23:41:11) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 69ms (View: 58, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:41:13) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 39ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:41:35) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 41ms (View: 29, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:41:36) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-03 23:41:38) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 67ms (View: 56, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 39ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-03 23:41:49) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-03 23:41:53) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 66ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:42:03) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:42:47) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 39ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#logging (for 192.168.2.101 at 2009-10-03 23:42:48) [GET]
+Rendering template within layouts/application
+Rendering guides/logging
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/logging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-03 23:42:50) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 36ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:42:51) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 71ms (View: 58, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:44:07) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 68ms (View: 56, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:44:42) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 68ms (View: 56, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:45:54) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 68ms (View: 57, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:50:35) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 68ms (View: 57, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:51:14) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 33ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:51:22) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 33ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:51:29) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 37ms (View: 24, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 23:54:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:55:03) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:55:16) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:55:31) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 23:55:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-03 23:55:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 39ms (View: 27, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-03 23:56:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 35ms (View: 23, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-03 23:56:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 36ms (View: 25, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:56:10) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-03 23:56:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-03 23:56:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 33ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:56:17) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:56:18) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-03 23:59:01) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-03 23:59:02) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 72ms (View: 60, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:12:51) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 78ms (View: 66, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:13:09) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:13:33) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 77ms (View: 65, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:13:54) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:14:07) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 39ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:14:33) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 79ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:14:46) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 81ms (View: 70, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:15:34) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:15:43) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 38ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:17:20) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:17:47) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:18:54) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 84ms (View: 71, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:19:19) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 79ms (View: 68, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 00:20:00) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:20:02) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 49ms (View: 37, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-04 00:20:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 37ms (View: 25, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:21:31) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 38ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:21:32) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:24:06) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 72ms (View: 58, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:25:01) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 70ms (View: 58, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:25:32) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 74ms (View: 61, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:26:20) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 71ms (View: 59, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:26:48) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 70ms (View: 59, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:27:19) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 71ms (View: 59, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:31:26) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 71ms (View: 59, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:32:51) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 71ms (View: 60, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:34:41) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 72ms (View: 60, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:35:13) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 76ms (View: 63, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:35:27) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 74ms (View: 63, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:35:49) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 73ms (View: 61, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:40:20) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:40:29) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 77ms (View: 65, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 00:47:24) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:47:30) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:47:39) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 81ms (View: 68, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:47:49) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 79ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:48:33) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 79ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:49:39) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 79ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 00:51:42) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 79ms (View: 68, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 00:52:04) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 39ms (View: 27, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 00:52:21) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#logging (for 192.168.2.101 at 2009-10-04 00:52:24) [GET]
+Rendering template within layouts/application
+Rendering guides/logging
+Completed in 36ms (View: 23, DB: 0) | 200 OK [http://spittle/guides/logging]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 00:52:44) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-04 00:53:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 32ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-04 00:53:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 00:59:01) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#writingmodules (for 192.168.2.101 at 2009-10-04 00:59:03) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 69ms (View: 58, DB: 0) | 200 OK [http://spittle/guides/writingmodules]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 00:59:15) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 00:59:18) [GET]
+
+ActionController::UnknownAction (No action responded to usingsql. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 01:04:03) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 80ms (View: 69, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 01:04:36) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 80ms (View: 69, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#writingmodules (for 192.168.2.101 at 2009-10-04 01:05:06) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 70ms (View: 58, DB: 0) | 200 OK [http://spittle/guides/writingmodules]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:05:08) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 68ms (View: 56, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#managingsql (for 192.168.2.101 at 2009-10-04 01:05:10) [GET]
+
+ActionController::UnknownAction (No action responded to managingsql. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:09:02) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 73ms (View: 61, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:12:45) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 73ms (View: 61, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:14:43) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 73ms (View: 62, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:17:08) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 75ms (View: 64, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:17:42) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 409ms (View: 398, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:22:00) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 79ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:22:44) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 78ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:22:57) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 78ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:23:12) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 80ms (View: 69, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:24:18) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 78ms (View: 66, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:27:38) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 79ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:27:54) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 83ms (View: 70, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:33:08) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 81ms (View: 69, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:33:59) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 80ms (View: 68, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 01:34:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-04 01:34:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 34ms (View: 23, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-04 01:34:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 36ms (View: 25, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:37:20) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 79ms (View: 68, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:41:57) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 91ms (View: 74, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:41:58) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:42:15) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 83ms (View: 71, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:42:27) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 82ms (View: 70, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:43:45) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 84ms (View: 72, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:45:05) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 82ms (View: 70, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:45:28) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 81ms (View: 70, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:48:42) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 83ms (View: 71, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:49:15) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 90ms (View: 77, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:50:11) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 85ms (View: 73, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:53:24) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 85ms (View: 73, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:53:45) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 87ms (View: 75, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:54:27) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 87ms (View: 76, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 01:55:48) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 42ms (View: 30, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#managingsql (for 192.168.2.101 at 2009-10-04 01:55:50) [GET]
+
+ActionController::UnknownAction (No action responded to managingsql. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 01:57:38) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 90ms (View: 76, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-04 02:00:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-04 02:07:20) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:07:23) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 42ms (View: 31, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#managingsql (for 192.168.2.101 at 2009-10-04 02:07:25) [GET]
+Rendering template within layouts/application
+Rendering guides/managingsql
+Completed in 80ms (View: 69, DB: 0) | 200 OK [http://spittle/guides/managingsql]
+
+
+Processing GuidesController#managingsql (for 192.168.2.101 at 2009-10-04 02:09:02) [GET]
+Rendering template within layouts/application
+Rendering guides/managingsql
+Completed in 79ms (View: 68, DB: 0) | 200 OK [http://spittle/guides/managingsql]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:09:13) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 42ms (View: 31, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:09:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 27, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-04 02:09:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 35ms (View: 23, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-04 02:09:30) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 36ms (View: 25, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:09:39) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 45ms (View: 32, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 02:09:42) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-04 02:11:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 82ms (View: 70, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-04 02:11:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:11:37) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 42ms (View: 30, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 02:11:38) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#pushingandpulling (for 192.168.2.101 at 2009-10-04 02:11:40) [GET]
+
+ActionController::UnknownAction (No action responded to pushingandpulling. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-04 02:11:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 81ms (View: 69, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 02:11:57) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 38ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 02:11:59) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 40ms (View: 28, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-04 02:12:03) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 33ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:12:06) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 43ms (View: 31, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 02:12:07) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 39ms (View: 28, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 02:12:15) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 39ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-04 02:12:23) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 31ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:12:25) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 44ms (View: 31, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 02:12:27) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 38ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#writingmodules (for 192.168.2.101 at 2009-10-04 02:12:30) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/writingmodules]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 02:12:31) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 36ms (View: 25, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#managingsql (for 192.168.2.101 at 2009-10-04 02:12:33) [GET]
+Rendering template within layouts/application
+Rendering guides/managingsql
+Completed in 41ms (View: 29, DB: 0) | 200 OK [http://spittle/guides/managingsql]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-04 02:12:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 31ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 02:12:59) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 44ms (View: 28, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:13:06) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 43ms (View: 31, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#managingsql (for 192.168.2.101 at 2009-10-04 02:13:09) [GET]
+Rendering template within layouts/application
+Rendering guides/managingsql
+Completed in 41ms (View: 30, DB: 0) | 200 OK [http://spittle/guides/managingsql]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-04 02:13:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 32ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:13:28) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 42ms (View: 31, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#writingmodules (for 192.168.2.101 at 2009-10-04 02:13:30) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 34ms (View: 22, DB: 0) | 200 OK [http://spittle/guides/writingmodules]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 02:13:33) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 36ms (View: 25, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 02:13:39) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 39ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-04 02:13:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 33ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:13:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 39ms (View: 27, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:15:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 79ms (View: 67, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:16:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:16:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:16:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 48ms (View: 30, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:16:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:16:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 78ms (View: 66, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:18:00) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 02:18:09) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 373ms (View: 361, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 02:18:10) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 39ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:18:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:18:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:18:47) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 39ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:18:48) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:18:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:18:49) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:18:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:20:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 77ms (View: 65, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:20:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:21:13) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:22:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-04 02:23:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 43ms (View: 32, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:24:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 112ms (View: 101, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:25:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:25:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-04 02:25:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 34ms (View: 23, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#whatyoucando (for 192.168.2.101 at 2009-10-04 02:25:22) [GET]
+Rendering template within layouts/application
+Rendering welcome/whatyoucando
+Completed in 43ms (View: 31, DB: 0) | 200 OK [http://spittle/welcome/whatyoucando]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:25:23) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 44ms (View: 32, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-04 02:25:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 32ms (View: 19, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-04 02:25:25) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 32ms (View: 20, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:25:27) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 45ms (View: 33, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:26:21) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:26:37) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 42ms (View: 31, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 02:26:38) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 38ms (View: 27, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 02:33:34) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 78ms (View: 67, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 02:37:29) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 198ms (View: 186, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#debuggingfail (for 192.168.2.101 at 2009-10-04 02:37:31) [GET]
+
+ActionController::UnknownAction (No action responded to debuggingfail. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:46:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 187ms (View: 175, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#howitworks (for 192.168.2.101 at 2009-10-04 02:46:18) [GET]
+Rendering template within layouts/application
+Rendering welcome/howitworks
+Completed in 70ms (View: 58, DB: 0) | 200 OK [http://spittle/welcome/howitworks]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:48:33) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 187ms (View: 176, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:49:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:49:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 37ms (View: 25, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:50:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 273ms (View: 262, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:51:37) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 38ms (View: 26, DB: 0) | 200 OK [http://spittle/]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 02:53:29) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 195ms (View: 184, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:53:30) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 79ms (View: 68, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#index (for 192.168.2.101 at 2009-10-04 02:53:32) [GET]
+Rendering template within layouts/application
+Rendering guides/index
+Completed in 42ms (View: 30, DB: 0) | 200 OK [http://spittle/guides]
+
+
+Processing GuidesController#pullingandpushing (for 192.168.2.101 at 2009-10-04 02:53:37) [GET]
+Rendering template within layouts/application
+Rendering guides/pullingandpushing
+Completed in 277ms (View: 265, DB: 0) | 200 OK [http://spittle/guides/pullingandpushing]
+
+
+Processing GuidesController#debugging (for 192.168.2.101 at 2009-10-04 02:53:48) [GET]
+Rendering template within layouts/application
+Rendering guides/debugging
+Completed in 81ms (View: 69, DB: 0) | 200 OK [http://spittle/guides/debugging]
+
+
+Processing GuidesController#usingsql (for 192.168.2.101 at 2009-10-04 02:54:15) [GET]
+Rendering template within layouts/application
+Rendering guides/usingsql
+Completed in 86ms (View: 74, DB: 0) | 200 OK [http://spittle/guides/usingsql]
+
+
+Processing GuidesController#managingsql (for 192.168.2.101 at 2009-10-04 02:54:47) [GET]
+Rendering template within layouts/application
+Rendering guides/managingsql
+Completed in 80ms (View: 68, DB: 0) | 200 OK [http://spittle/guides/managingsql]
+
+
+Processing GuidesController#writingmodules (for 192.168.2.101 at 2009-10-04 02:54:54) [GET]
+Rendering template within layouts/application
+Rendering guides/writingmodules
+Completed in 69ms (View: 57, DB: 0) | 200 OK [http://spittle/guides/writingmodules]
+
+
+Processing WelcomeController#libs (for 192.168.2.101 at 2009-10-04 02:55:29) [GET]
+Rendering template within layouts/application
+Rendering welcome/libs
+Completed in 74ms (View: 63, DB: 0) | 200 OK [http://spittle/welcome/libs]
+
+
+Processing WelcomeController#aboutus (for 192.168.2.101 at 2009-10-04 02:55:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/aboutus
+Completed in 67ms (View: 55, DB: 0) | 200 OK [http://spittle/welcome/aboutus]
+
+
+Processing WelcomeController#index (for 192.168.2.101 at 2009-10-04 02:55:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 77ms (View: 65, DB: 0) | 200 OK [http://spittle/]

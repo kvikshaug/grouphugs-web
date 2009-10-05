@@ -1,0 +1,27 @@
+<% content_for :nav_guides do %> class="marked"<% end %>
+<% content_for :breadcrumbs do %>Guides index<% end %>
+
+<h2>Guides</h2>
+<p>Newcomers should start on the top and just continue downwards.</p>
+
+<h3>Basic guides</h3>
+<ul>
+<li><%= link_to "Downloading and uploading", :action => :pullingandpushing %><br>
+  How to download the entire repository, and reupload after modifying.</li>
+<li><%= link_to "Debugging", :action => :debugging %><br>
+  How to start the bot on your own machine.</li>
+</ul>
+
+<h3>Advanced guides</h3>
+<ul>
+<li><%= link_to "Writing modules", :action => :writingmodules %><br>
+  How to write new modules for the bot.
+<li><%= link_to "Using SQL", :action => :usingsql %><br>
+  How to use the SQL database from within your java modules.</li>
+<li><%= link_to "Managing SQL", :action => :managingsql %><br>
+  How to modify the table structure in the database.
+</ul>
+
+<hr>
+
+<p>Missing anything? <%= link_to "Let us know", :controller => :about, :action => :us %>!</p>

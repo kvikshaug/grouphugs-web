@@ -1,0 +1,21 @@
+<% content_for :nav_guides do %> class="marked"<% end %>
+<% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Managing SQL<% end %>
+
+<h2>Managing SQL</h2>
+
+<p>SQLite is <a href="http://sqlite.org/serverless.html">serverless</a>. The whole DB is one single file, which lives in the git repository. It requires no username or password, and you cannot connect via TCP/IP - you <em>must</em> use the filesystem to access
+the file.</p>
+
+<p>In order to modify the tables, we recommend using <a href="http://www.zentus.com/sqlitejdbc/">sqlitebrowser</a>, a simple and efficient linux binary. First you need to download the database. If you have <%= link_to "downloaded the source code repository", :action => :pushingandpulling %>, you will find a file called 'grouphugs.db' in the project root. This is the database file. Now, simply download sqlitebrowser from <%= link_to "our download page", :controller => :about, :action => :libs %>, give it runnable permissions, and start it.</p>
+
+<p class="note">sqlitebrowser: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), for GNU/Linux 2.2.0, dynamically linked (uses shared libs), not stripped</p>
+
+<p>You should get up the main window. Choose "Open", and browse to the 'grouphugs.db' file. You should get up the different tables, and be able to view their data by choosing the "Browse Data" tab. Generally, the interface should be pretty intuitive if you're familiar with SQL. When done, just save the file, commit, and <%= link_to "push the changes back to the repository", :action => :pushingandpulling %>.</p>
+
+<p>The changes will be applied to bot the next time it restarts.</p>
+
+<p>That's all there is to it! Nice, isn't it? :)</p>
+
+<hr>
+
+<p>Back to the <%= link_to "guides index", :action => :index%>.</p>

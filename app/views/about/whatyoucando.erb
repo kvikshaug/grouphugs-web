@@ -1,0 +1,10 @@
+<% content_for :nav_whatyoucando do %> class="marked"<% end %>
+<% content_for :breadcrumbs do %><!-- We need some sort of single-line random IRC quote here or something -->&nbsp;<% end %>
+
+<h2>Want to help?</h2>
+<p>Awesome! Join the group hug!</p>
+<p>First, it's a good idea to join <%= link_to "our IRC channel", :action => :us %>. All discussion happen there, and while all contributions in general are welcome, we still like to know what's being done &mdash; especially regarding big design changes.</p>
+<p>Next, take a look at our <%= link_to "guides", :controller => :guides %>. These will help you get started, and also help you figure out our typical ways of doing things. For example, how and when to use the classes in our <%= link_to "util package", :controller => :guides, :action => :usingsql %>.</p>
+<p>You may also want to <%= link_to "pull down", :controller => :guides, :action => :pullingandpushing %> a copy of the git repository. Open the code in an IDE, so it's easier to traverse. Experiment. Check out the <%= link_to "debugging", :controller => :guides, :action => :debugging %> guide, and start the bot on your own channel to see how it works.</p>
+<p>Alternatively, you can just <a href="http://github.com/murr4y/grouphugs/">browse the source code online</a>. This way you'll get a quick overview of what it looks like.</p>
+<hr><p>If you have any unanswered questions, feel free to ask us in <%= link_to "our IRC channel", :action => :us %>.</p>

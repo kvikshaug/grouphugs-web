@@ -1,0 +1,111 @@
+<% content_for :nav_guides do %> class="marked"<% end %>
+<% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Using SQL<% end %>
+
+<h2>Using SQL from java</h2>
+
+<p>We are currently not using any <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">OR/M</a> to manage data, although we have discussed using <a href="https://www.hibernate.org/">hibernate</a>. If you want to start implementing an <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">OR/M</a> system, please bring up the discussion in the <%= link_to "IRC channel", :controller => :about, :action => :us %> first.</p>
+
+<p>Instead, the common way to handle SQL is to use the <a href="http://java.sun.com/javase/technologies/database/">JDBC</a> API through a small wrapper that we have written. You can also use the <a href="http://java.sun.com/javase/technologies/database/">JDBC</a> API directly if you wish to.</p>
+
+<h3>Our JDBC wrapper</h3>
+
+<p>The wrapper consists of two classes in the grouphug.util package: SQL and SQLHandler. SQL is the first wrapper, and SQLHandler wraps SQL even further. You can choose which one to use, however this guide only explains how to use the simplest one; SQLHandler.</p>
+
+<p>Let's start off with a simple example:</p>
+
+<pre class="code">Object[] row = sqlHandler.selectSingle(
+  "select lulz from my_table;");
+
+String lulz = (String)row[0];
+
+bot.sendMessage(
+  "I have some lulz for you: " + lulz, false);</pre>
+
+<p>Here we fetched a single row and the text column "lulz" from "my_table", and outputted it to the channel. However, no error cases were handled. Here follows the same example, with some added error handling code:</p>
+
+<pre class="code">try {
+  Object[] row = sqlHandler.selectSingle(
+    "select lulz from my_table;");
+
+  if(row == null) {
+    bot.sendMessage("Sorry, no lulz today.", false);
+    return;
+  } 
+  
+  String lulz = (String)row[0];
+
+  bot.sendMessage(
+    "I have some lulz for you: " + lulz, false);
+
+} catch(SQLException ex) {
+  bot.sendMessage(
+    "Shit, i was unable to fetch the lulz", false);
+  ex.printStackTrace();
+}</pre>
+
+<p>This is by far the most typical usage for our modules. However, for this to work, the sqlHandler var must be created somewhere. Currently this is done in the constructor, but that doesn't seem like the best design. The new one isn't ready yet, but for now, just know that this will probably change.</p>
+
+<p>Here's an example of how to instantiate the sql handler:</p>
+
+<pre class="code">public MyModule() {
+  try {
+    sqlHandler = SQLHandler.getSQLHandler();
+  } catch(ClassNotFoundException ex) {
+    System.err.println(
+      "Unable to start up MyModule - " +
+      "SQL is unavailable!");
+    // at this point, if the module is 100%
+    // dependent on SQL, the module should be
+    // disabled - however, this is not supported yet
+  }
+}</pre>
+
+<p>As you see, all we use is the static getter from the SQLHandler class. All modules use the same sqlHandler object, so that no effort is spent opening and closing connections - it will stay open as long as the bot is running.</p>
+
+<p>The next example will show how to pass parameters that come externally, so that SQL injection is prevented.</p>
+
+<pre class="code">ArrayList&lt;String&gt; params = new ArrayList&lt;String&gt;();
+params.add(nick); // nick is a string variable;
+                  // the user nick of someone
+params.add(message); // message is a string variable
+                     // containing some irc chat
+Object[] row = sqlHandler.selectSingle(
+  "select id, nick from my_table " +
+  "where nick='?' and message='?';", params);
+
+int id = (Integer)row[0];
+// ...</pre>
+
+<p>As you see, you simply pass all the arguments in an ArrayList&lt;String&gt; variable, and mark them as questionmarks. They will be replaced in the order they are added to the list, and our wrappers will (try to) handle any evil-intentioned characters.</p>
+
+<p>The last example will show how to select multiple rows, and traverse them.</p>
+
+<pre class="code">ArrayList&lt;Object[]&gt; rows = sqlHandler.select(
+  "select id, msg from lotsa_rows;");
+
+  for(Object[] row : rows) {
+    bot.sendMessage("ID " + row[0] + " says: " +
+      row[1], false);
+  }</pre>
+
+<p>Instead of calling selectSingle(), we now call select() which returns an arraylist of object rows. You can call size() on it to check if it's empty, and traverse it as you'd like.</p>
+
+<p class="note">You've now seen the use of two methods; selectSingle() and select(). The remaining methods available in the SQLHandler class are:<br><br>
+
+<em>insert()</em><br>
+Used for insert queries. Returns a long, containing the ID of the inserted row.<br><br>
+
+<em>update()</em><br>
+Used for update queries. Returns an int, containing the number of rows affected.<br><br>
+
+<em>delete()</em><br>
+Used for delete queries. Returns an int, containing the number of rows affected.<br><br>
+
+All of these take a string, or a string and arraylist of parameter strings, just like select() and selectSingle().
+</p>
+
+<p>The classes are documented with javadoc-style comments and you're free to check them out for more information.</p>
+
+<hr>
+
+<p>Back to the <%= link_to "guides index", :action => :index%>.</p>

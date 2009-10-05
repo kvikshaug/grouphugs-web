@@ -1,0 +1,9 @@
+<%- content_for :nav_welcome do -%> class="marked"<% end -%>
+<%- content_for :breadcrumbs do -%>/me hugs visitor<%- end -%>
+
+  <h2>Welcome to grouphugs!</h2>
+  <p>Grouphugs is the name of an <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat_bot">IRC-bot</a>, created solely for entertainment purposes and as an experimental platform.</p>
+  <p>The bot's main purpose is to hug, entertain, insult and/or inform its users in any way imaginable.</p>
+  <p>We use <%= link_to "different technologies", :action => "howitworks" %> in order to achieve this, so for the developers, this is nothing more than a fun way to train our programming skills.</p>
+  <hr>
+  <p>Anyone is free to help develop the bot! Read about <%= link_to "how it works", :action => :howitworks %> first, or jump straight to <%= link_to "what you can do", :action => :whatyoucando %>.</p>
