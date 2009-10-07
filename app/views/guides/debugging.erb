@@ -11,23 +11,25 @@
 
 <pre class="code">buildr clean package</pre>
 
-<p>This command tells buildr to pull any missing libraries from a remote maven repository, compile Grouphugs, and package it neatly into a .jar file for you. The resulting .jar file can now be found in the target/ subdirectory. Now, to run the .jar file, grouphugs.db (located in the project root directory) needs to be placed in the same directory as the .jar, and when that's all done you can issue the following command:</p>
+<p>This command tells buildr to pull any missing libraries from a remote maven repository, compile Grouphugs, and package it neatly into a .jar file for you. The resulting .jar file can now be found in the target/ subdirectory.</p>
 
-<pre class="code">java -jar &lt;jar file name&gt;</pre>
+<p>It is now possible to run the bot by issuing the following command:</p>
 
-<p>Grouphugs should now be running.</p>
+<pre class="code">java -jar target/&lt;jar file name&gt;</pre>
 
-<p>After <%= link_to "downloading", :action => :pullingandpushing %> the source and applying your changes, you may be eager to test them out. But as we all know all too well, there is no such thing as bug-free code, so here we will explain how to run the bot on your local machine to find all (or most) of your bugs before you deploy them.</p>
+<p>However, we advise you to also take a look at the following optional additions.</p>
 
-<h3>1: Libraries</h3>
+<h3>Optional additions</h3>
 
-<p>Since Grouphugs uses buildr as its build system, and buildr interacts with maven repositories, there's next to no need to worry about libraries &mdash; buildr will pull the necessary libraries from a remote maven repository and install them in your local maven repository (typically in ~/.m2/repository).</p>
+<h4>1: SQL</h4>
 
-<h3>2: Logging output</h3>
+<p>In order to get SQL running, you simply need to <%= link_to "download the database", :controller => :about, :action => :libs %> and put it in your project root.</p>
+
+<p class="note">This will be the database in the state it was at the exact moment you download it. Remember that any changes you make to it will not be applied to the database file on the deployed bot. For more info, read up on <%= link_to "managing sql", :action => :managingsql %>.</p>
+
+<h4>2: Logging output</h4>
 
 <p>The log output is normally redirected to the file 'log-current' in the project root.</p>
-
-<p class="note">For you windows users: Even though it doesn't have the '.txt' extension, you CAN open it as a normal text file.</p>
 
 <p>You may want to skip this redirection, for example if you're using an IDE with a console, unless you're ok with using 'tail -f' or something similar. Go to the main() method in Grouphug.java, and search for the following:</p>
 
@@ -38,13 +40,21 @@ System.setErr(stdOut);</pre>
 
 <p>Just remember to uncomment them before pushing back your changes!</p>
 
-<h3>3: Channel name</h3>
+<h4>3: Channel name</h4>
 
-<p>It is probably a good idea to test out the functionality for yourself in a seperate channel. The channel variable can be found in Grouphugs.java near the top of the class. Remember to check the console even though the bot doesn't output any errors to the channel, and remember to change the channel name back before pushing back your changes!</p>
+<p>It is probably a good idea to test out the functionality for yourself in a seperate channel. The channel variable can be found in Grouphugs.java near the top of the class.</p>
 
-<h3>4: Go!</h3>
+<p>Remember to change the channel name back before pushing back your changes!</p>
 
-<p>When all of this is taken care of, you should be able to simply run the bot. It will use the 'grouphugs.db' file, which came from the repository, as its SQL database. It will connect from your local computer and hopefully be visible on IRC, and behaving exactly the same way the final deployed bot would behave.</p>
+<h4>4: Libraries and dependencies</h4>
+
+<p><em>(This is purely informational)</em></p>
+
+<p>Since Grouphugs uses buildr as its build system, and buildr interacts with maven repositories, there's next to no need to worry about libraries &mdash; buildr will pull the necessary libraries from a remote maven repository and install them in your local maven repository (typically in ~/.m2/repository).</p>
+
+<h3>That's it!</h3>
+
+<p>Now you should be able to simply run the bot. It will connect to IRC from your local computer and hopefully be visible there, and behaving exactly the same way the final deployed bot would behave.</p>
 
 <hr>
 

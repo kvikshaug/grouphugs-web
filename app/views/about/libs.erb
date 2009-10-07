@@ -1,8 +1,20 @@
 <% content_for :nav_libs do %> class="marked"<% end %>
 <% content_for :breadcrumbs do %><!-- We need some sort of single-line random IRC quote here or something -->&nbsp;<% end %>
 
-<h2>Library downloads</h2>
-<p>These are all the libraries required to run the bot locally.</p>
+<h2>Downloads</h2>
+
+<h3 class="downloads">SQLite browser</h3>
+<p class="downloads">A small linux application that lets you open <a href="http://www.sqlite.org/">SQLite</a> database files and manage them.</p>
+<p class="downloads"><a href="/sqlitebrowser">Download v1.3</a> | <a href="http://sourceforge.net/projects/sqlitebrowser/">Homepage</a></p>
+
+<br>
+
+<h3 class="downloads">The database</h3>
+<p class="downloads">This is the entire sqlite database file. It is a direct link, so its state will be the official db's state at the exact time of your download.</p>
+<p class="downloads"><%= link_to "Download current", "/grouphugs.db" %> | <a href="http://gh.kvikshaug.no/">Homepage</a></p>
+
+
+<p class="note">The following files are libraries used for the bot. However, you do NOT need to download them anymore, because all dependencies will be resolved through the <%= link_to "buildr script", :action => :debugging %>. We still provide them here for information and in case you want to play around.</p>
 
 <h3 class="downloads">Pircbot</h3>
 <p class="downloads">The pircbot library is the main library for the bot.</p>
@@ -13,12 +25,6 @@
 <h3 class="downloads">SQLite-JDBC</h3>
 <p class="downloads">This is a <a href="http://java.sun.com/javase/technologies/database/">JDBC</a> implementation of <a href="http://www.sqlite.org/">SQLite</a>. This is what we use in order to connect to the SQLite database.</p>
 <p class="downloads"><a href="/sqlitejdbc-v056-pure.jar">Download v056 'pure'</a> | <a href="http://www.zentus.com/sqlitejdbc/">Homepage</a></p>
-
-<br>
-
-<h3 class="downloads">SQLite browser</h3>
-<p class="downloads">A small application that lets you open <a href="http://www.sqlite.org/">SQLite</a> database files and manage them.</p>
-<p class="downloads"><a href="/sqlitebrowser">Download v1.3</a> | <a href="http://sourceforge.net/projects/sqlitebrowser/">Homepage</a></p>
 
 <br>
 
