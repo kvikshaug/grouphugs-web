@@ -43,20 +43,19 @@ bot.sendMessage(
   ex.printStackTrace();
 }</pre>
 
-<p>This is by far the most typical usage for our modules. However, for this to work, the sqlHandler var must be created somewhere. Currently this is done in the constructor, but that doesn't seem like the best design. The new one isn't ready yet, but for now, just know that this will probably change.</p>
+<p>This is by far the most typical usage for our modules. However, for this to work, the sqlHandler var must be created somewhere. This should be done in the constructor of the module, and if SQL is unavailable and the module depends on it, then it should not be loaded.</p>
 
 <p>Here's an example of how to instantiate the sql handler:</p>
 
 <pre class="code">public MyModule() {
   try {
     sqlHandler = SQLHandler.getSQLHandler();
+    // no exception was thrown, so load up
+    // the module as normal here
   } catch(ClassNotFoundException ex) {
     System.err.println(
       "Unable to start up MyModule - " +
       "SQL is unavailable!");
-    // at this point, if the module is 100%
-    // dependent on SQL, the module should be
-    // disabled - however, this is not supported yet
   }
 }</pre>
 
