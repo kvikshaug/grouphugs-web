@@ -4,3 +4,5 @@ tmp/**/*
 doc/api
 doc/app
 public/grouphugs.db
+public/jdoc/
+public/jdoc/**/*

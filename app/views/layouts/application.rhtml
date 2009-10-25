@@ -3,7 +3,7 @@
 <head>
   <title>Grouphugs</title>
   <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" media="screen">
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
 </head>
 
 <body>
@@ -36,6 +36,13 @@
       <li<%= yield :nav_guides %>><%= link_to "Guides", :controller => :guides %></li>
       <li<%= yield :nav_libs %>><%= link_to "Downloads", :controller => :about, :action => :libs %></li>
       <li<%= yield :nav_aboutus %>><%= link_to "About us", :controller => :about, :action => :us %></li>
+    </ul>
+
+    <h2>Extras</h2>
+    <ul>
+      <li<%= yield :nav_ctl %>><%= link_to "Control", :controller => :extras, :action => :ctl %></li>
+      <li<%= yield :nav_uploads %>><%= link_to "Uploads", :controller => :extras, :action => :uploads %></li>
+      <li><a href="/jdoc/">Javadoc</a></li>
     </ul>
     </nav>
 

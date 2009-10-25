@@ -5,9 +5,9 @@
 
 <h3>Quick start</h3>
 
-<p>So how do you get this thing running? Well, unless you already have buildr installed, you need to install it. To do this, use the gem command provided by rubygems. If you don't have rubygems installed on your system, refer to the <a href="http://docs.rubygems.org/read/chapter/3">rubygems installation guide</a> for instructions on how to install it.</p>
+<p>So how do you get this thing running on your local machine? Well, unless you already have <a href="http://buildr.apache.org/">buildr</a> installed, you need to <a href="http://buildr.apache.org/installing.html">install it</a>. Their guides on how to do this are excellent. You might or might not need <a href="http://docs.rubygems.org/read/chapter/3">rubygems</a> too.</p>
 
-<p>Got rubygems installed yet? Good. Now all you need to do is compile and package Grouphugs, then run it. This is very simple:</p>
+<p>Got buildr installed yet? Good. Now all you need to do is compile and package Grouphugs, then run it. This is very simple:</p>
 
 <pre class="code">buildr clean package</pre>
 
@@ -17,13 +17,13 @@
 
 <pre class="code">java -jar target/&lt;jar file name&gt;</pre>
 
-<p>However, we advise you to also take a look at the following optional additions.</p>
+<p>However, we advise you to also take a look at the following optional additions before you do that.</p>
 
 <h3>Optional additions</h3>
 
 <h4>1: SQL</h4>
 
-<p>In order to get SQL running, you simply need to <%= link_to "download the database", :controller => :about, :action => :libs %> and put it in your project root.</p>
+<p>In order to get SQL running, you simply need to <%= link_to "download the database file", :controller => :about, :action => :libs %> and put it in your project root. This is not required, but the modules using SQL will obviously not be loaded without it.</p>
 
 <p class="note">This will be the database in the state it was at the exact moment you download it. Remember that any changes you make to it will not be applied to the database file on the deployed bot. For more info, read up on <%= link_to "managing sql", :action => :managingsql %>.</p>
 
@@ -31,7 +31,7 @@
 
 <p>The log output is normally redirected to the file 'log-current' in the project root.</p>
 
-<p>You may want to skip this redirection, for example if you're using an IDE with a console, unless you're ok with using 'tail -f' or something similar. Go to the main() method in Grouphug.java, and search for the following:</p>
+<p>You may want to skip this redirection, for example if you're using an IDE with a console, unless you're ok with using 'tail -f' or something similar. Go to the main() method in <abbr title="&lt;project root&gt;/src/main/java/grouphug/Grouphug.java">Grouphug.java</abbr>, and search for the following:</p>
 
 <pre class="code">System.setOut(stdOut);
 System.setErr(stdOut);</pre>
@@ -42,7 +42,7 @@ System.setErr(stdOut);</pre>
 
 <h4>3: Channel name</h4>
 
-<p>It is probably a good idea to test out the functionality for yourself in a seperate channel. The channel variable can be found in Grouphugs.java near the top of the class.</p>
+<p>It is probably a good idea to test and debug your new functionality for yourself in a seperate channel. The channel variable can be found in <abbr title="&lt;project root&gt;/src/main/java/grouphug/Grouphug.java">Grouphugs.java</abbr> near the top of the class.</p>
 
 <p>Remember to change the channel name back before pushing back your changes!</p>
 
@@ -54,7 +54,7 @@ System.setErr(stdOut);</pre>
 
 <h3>That's it!</h3>
 
-<p>Now you should be able to simply run the bot. It will connect to IRC from your local computer and hopefully be visible there, and behaving exactly the same way the final deployed bot would behave.</p>
+<p>Now you should be able to simply run the bot like explained above. It will connect to IRC from your local computer and hopefully be visible there, and behaving exactly the same way the final deployed bot would behave.</p>
 
 <hr>
 

@@ -5,7 +5,7 @@
 
 <p>It is surprisingly easy to write a new module. Let me show you how it works.</p>
 
-<p>First, just make a new class in the grouphug.modules package, and add its constructor. Let's call it Hugger. It might look something like this:</p>
+<p>First, just make a new class in the <abbr title="&lt;project root&gt;/src/main/java/grouphug/modules/">grouphug.modules</abbr> package, and add its constructor. Let's call it Hugger. It might look something like this:</p>
 
 <pre class="code">package grouphug.modules;
 
@@ -105,9 +105,9 @@ public class Hugger implements TriggerListener {
 
 <h3>Loading SQL</h3>
 
-<p>If you want to use SQL, you should try to load the SQLHandler in your module's constructor, and if it fails (and your module NEEDS SQL), then NOT load the module. Example:</p>
+<p>If you want to use SQL, you first need to load the SQLHandler in your module's constructor, and if it fails, then NOT load the module. Example:</p>
 
-<pre class="code">private SQLHandler sqlHandler;
+<pre class="code"><span class="code-marked">private SQLHandler sqlHandler;</span>
 
 public Hugger(ModuleHandler handler) {
   <span class="code-marked">try {
@@ -122,15 +122,17 @@ public Hugger(ModuleHandler handler) {
   }</span>
 }</pre>
 
+<p>How to use SQL when it loads successfully is described in <%= link_to "its own guide", :action => :usingsql %>.</p>
+
 <h3>What to do from here</h3>
 
 <p>Well, basically you can do anything your imagination and java skills will let you do.</p>
 
-<p>If you need to catch EVERY message sent to the channel (not just triggered ones), implement MessageListener instead of TriggerListener, and use the addMessageListener method in ModuleHandler.</p>
-
 <p>If you need persistent storage, use <%= link_to "SQL", :action => :usingsql %>.</p>
 
-<p>If you need Web access, use the grouphug.util.Web class. (Or do it yourself, entirely up to you).</p>
+<p>If you need Web access, use the methods in the grouphug.util.Web class. (Or do it yourself, entirely up to you).</p>
+
+<p>If you need to catch EVERY message sent to the channel (not just triggered ones), implement MessageListener instead of TriggerListener, and use the addMessageListener method in ModuleHandler. It is very similar, and the <a href="/jdoc/">javadoc</a> explains it even further.</p>
 
 <p>Go ahead, make some cool modules and impress us!</p>
 

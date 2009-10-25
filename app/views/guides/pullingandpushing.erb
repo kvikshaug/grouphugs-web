@@ -1,11 +1,11 @@
 <% content_for :nav_guides do %> class="marked"<% end %>
-<% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Downloading and uploading<% end %>
+<% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Downloading the code<% end %>
 
-<h2>Downloading and uploading</h2>
+<h2>Downloading the code</h2>
 
-<p>In order to get anything done, you will have to be able to download the entire source code, and upload your changes. This is done through the <a href="http://github.com/murr4y/grouphugs/">github repository</a>, and you will need a <a href="http://git-scm.com/">git</a> client installed.</p>
+<p>The very first thing you have to do is download the source code. This is done through the <a href="http://github.com/murr4y/grouphugs/">github repository</a>, and you will need a <a href="http://git-scm.com/">git</a> client installed.</p>
 
-<p>This guide will assume that you are using git from a unix-like command line.</p>
+<p>This guide assumes that you are using git from a unix-like command line.</p>
 
 <h3>Downloading the repository</h3>
 
@@ -17,29 +17,25 @@
 
 <pre class="code">cd grouphugs; git log</pre>
 
-<p>If you're using <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a> or <a href="http://www.eclipse.org/">Eclipse</a> as <abbr title="Integrated development environment">IDE</abbr>, buildr can generate project files for you. Try issuing:</p>
+<p>If you're using <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a> or <a href="http://www.eclipse.org/">Eclipse</a> as <abbr title="Integrated development environment">IDE</abbr>, buildr can generate project files for you. While in the project directory, try issuing:</p>
 
 <pre class="code">buildr &lt;IDE&gt;</pre>
 
 <p>Replacing &lt;IDE&gt; with your preferred <abbr title="Integrated development environment">IDE</abbr>, for example 'idea' or 'eclipse'.</p>
 
+<p class="note">If you're unfamiliar with buildr, <a href="http://buildr.apache.org/">their web site</a> provides excellent information on what it is and how to install it.</p>
+
 <p>Now, you're free to modify the source as you want. Feel free to <%= link_to "try out your changes", :action => :debugging %> before you move on to apply them.</p>
 
-<h3>Pushing back your changes</h3>
+<h3>Uploading your changes</h3>
 
-<p>If you're one of the few trusted members of the #grouphugs channel, you can ask murr4y to add your <a href="http://help.github.com/linux-key-setup/">deploy key</a>.
-
-<p class="note">In order to gain "trusted" status in the channel, you normally need to be vouched for by an existing trusted member. If you aren't, you will have to ask us to pull from your repository for each change. If you do this regularly, while have being online for a long time and feel relatively familiar in the channel, you may eventually gain "trusted" status.</pre>
-
-<p>When this is done, you'll be able to simply push back your changes typing:</p>
+<p>If you're a regular in the #grouphugs channel, just ask murr4y to add your <a href="http://help.github.com/linux-key-setup/">deploy key</a>. Then you can push back your changes to the <a href="http://github.com/murr4y/grouphugs/">github repository</a> like this (while being in the project root):</p>
 
 <pre class="code">git push origin master</pre>
 
-<p>From the git repo directory. And that's all there is to it! Check out your new changes <a href="http://github.com/murr4y/grouphugs/">online</a> if you want. They will be applied to the bot on its next restart.</p>
+<p>If you happen to not know us that well, but you're still interested in this project, just talk to us. We will probably just pull from you, review your work, and with time, you'll be trusted enough to get push permissions.</p>
 
-<h3>Restarting the bot</h3>
-
-<p>Earlier, we used to have a handy little web interface that would let you restart the bot, view the latest log entries. However, after moving the bot and getting a this new setup, we haven't gotten this far yet. At this point, you'll just have to poke murr4y in <%= link_to "the channel", :controller => :about, :action => :us %> and tell him to restart it.</p>
+<p>And that's all there is to it! Check out your new changes <a href="http://github.com/murr4y/grouphugs/">online</a> if you want. They will be applied to the bot on its <%= link_to "next restart", :controller => :extras, :action => :ctl %>.</p>
 
 <hr>
 
