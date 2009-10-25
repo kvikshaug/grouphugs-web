@@ -3,11 +3,136 @@
 
 <h2>Writing modules</h2>
 
-<p>The current way of writing modules is to extend the GrouphugModule interface, put the class in the grouphug.modules package, add a new instance of it to the modules vector (in Grouphug.java in the main() method).</p>
+<p>It is surprisingly easy to write a new module. Let me show you how it works.</p>
 
-<p>However, we are hoping to rewrite this design to something better, where you don't HAVE to implement all the methods, but only those you want to - by registering for events. Therefore, this guide will be postponed.</p>
+<p>First, just make a new class in the grouphug.modules package, and add its constructor. Let's call it Hugger. It might look something like this:</p>
 
-<p class="note">If you really want to write a new module with the current design, just check out the existing modules - you will probably quickly learn the general principles.</p>
+<pre class="code">package grouphug.modules;
+
+public class Hugger {
+  public Hugger() {
+
+  }
+}</pre>
+
+<p>All right, first we need to add the ModuleHandler type to the constructor. This is because the bot will call that specific constructor later. Remember to import it. So now the whole file looks like this (changes marked red):</p>
+
+<pre class="code">package grouphug.modules;
+
+<span class="code-marked">import grouphug.ModuleHandler;</span>
+
+public class Hugger {
+  public Hugger(<span class="code-marked">ModuleHandler handler</span>) {
+
+  }
+}</pre>
+
+<p>Now we just need to let the bot know that it has to load the module. Find the ModuleHandler.java file, and scroll to its constructor. You see that all other modules are loaded there.</p>
+
+<p>Add your new module with them, on a single line, anywhere (normally it's alphabetically sorted), like this:</p>
+
+<pre class="code">new Hugger(this);</pre>
+
+<p>That will instantiate the module and call its constructor when the bot starts. That's it! This is now a valid module, working just like any other modules.</p>
+
+<p>Obviously, the module needs some more functionality. Let's say it's a hugger module, and it wants to respond when someone triggers the keyword "hug". We need to register for trigger events in the constructor:</p>
+
+<pre class="code">public Hugger(ModuleHandler handler) {
+  <span class="code-marked">handler.addTriggerListener("hug", this);</span>
+}</pre>
+
+<p>This will tell the bot to let this module know when anyone triggers the keyword "hug". The addTriggerListener takes a TriggerListener as the second parameter, so our module needs to implement that interface and its methods. So the file now looks like this:</p>
+
+<pre class="code">package grouphug.modules;
+
+import grouphug.ModuleHandler;
+<span class="code-marked">import grouphug.listeners.TriggerListener;</span>
+
+public class Hugger <span class="code-marked">implements TriggerListener</span> {
+  public Hugger(ModuleHandler handler) {
+    handler.addTriggerListener("hug", this);
+  }
+
+  <span class="code-marked">public void onTrigger(String channel, String sender,
+    String login, String hostname, String message) {
+
+  }</span>
+}</pre>
+
+<p>All right! That new "onTrigger" method will now be called any time anyone says "!hug". However, the trigger will be stripped from the message String. So if someone says "!hug me", the message will simply be "me". If someone says "!hugme", our module will NOT be notified, because the keyword is "hugme" and not "hug".</p>
+
+<p class="note">Check out the comments in the TriggerListener interface for information on what the different Strings in the onTrigger method will contain.</p>
+
+<p>But we don't care what the users says after hug, we say the same thing anyway. So we just use the bot's sendMessage method in this way:</p>
+
+<pre class="code">Grouphug.getInstance().sendMessage(
+  "This will be sent to the channel", false);</pre>
+
+<p class="note">The final "false" parameter makes the bot send the message even if it is many many lines long. If it is "true", the bot will not spam the channel, but ask the user to use the spam-trigger instead. So "true" should only be used when the user can have the message resent, and we might expect the message to be very long.</p>
+
+<p>So we just add this in the onTrigger method, and the module is complete! Let's also output to stdout that the module loaded fine. The final version looks like this:</p>
+
+<pre class="code">package grouphug.modules;
+
+import grouphug.ModuleHandler;
+
+public class Hugger implements TriggerListener {
+  public Hugger(ModuleHandler handler) {
+    handler.addTriggerListener("hug", this);
+    <span class="code-marked">System.out.println("Hugger module loaded.");</span>
+  }
+
+  public void onTrigger(String channel, String sender,
+    String login, String hostname, String message) {
+
+    <span class="code-marked">Grouphug.getInstance().sendMessage(
+      "Take a shower first, you dirty old man.", false);</span>
+
+  }
+}</pre>
+
+<h3>Help text</h3>
+
+<p>It is often a good idea to inform users of how to use your module. For that, use the registerHelp method in the ModuleHandler class. First parameter is the help trigger (for example: "!help hugger" would mean "hugger" is the trigger). The second is the text displayed if someone asks for that help text with the trigger. Like this:</p>
+
+<pre class="code">public Hugger(ModuleHandler handler) {
+  // register for triggers here...
+  <span class="code-marked">handler.registerHelp("hugger", "The Hugger module " +
+    "will give you the best hug you have ever " +
+    "experienced. Usage:\n" +
+    "  !hug");</span>
+}</pre>
+
+<h3>Loading SQL</h3>
+
+<p>If you want to use SQL, you should try to load the SQLHandler in your module's constructor, and if it fails (and your module NEEDS SQL), then NOT load the module. Example:</p>
+
+<pre class="code">private SQLHandler sqlHandler;
+
+public Hugger(ModuleHandler handler) {
+  <span class="code-marked">try {
+    sqlHandler = SQLHandler.getSQLHandler();</span>
+    // at this point we're fine, so register for events
+    System.out.println("Hugger module loaded.");
+  <span class="code-marked">} catch(ClassNotFoundException ex) {
+    // the module is now disabled because we haven't
+    // registered for events
+    System.err.println("Hugger module is disabled " +
+      "because the SQL driver is unavailable!");
+  }</span>
+}</pre>
+
+<h3>What to do from here</h3>
+
+<p>Well, basically you can do anything your imagination and java skills will let you do.</p>
+
+<p>If you need to catch EVERY message sent to the channel (not just triggered ones), implement MessageListener instead of TriggerListener, and use the addMessageListener method in ModuleHandler.</p>
+
+<p>If you need persistent storage, use <%= link_to "SQL", :action => :usingsql %>.</p>
+
+<p>If you need Web access, use the grouphug.util.Web class. (Or do it yourself, entirely up to you).</p>
+
+<p>Go ahead, make some cool modules and impress us!</p>
 
 <hr>
 

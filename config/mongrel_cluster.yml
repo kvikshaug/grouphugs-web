@@ -1,0 +1,10 @@
+--- 
+group: murray
+address: 127.0.0.1
+log_file: log/mongrel.log
+port: "8000"
+cwd: /var/www/gh
+environment: production
+user: murray
+pid_file: /var/www/gh/tmp/mongrel.pid
+servers: 3
