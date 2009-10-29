@@ -52,7 +52,7 @@ bot.sendMessage(
     sqlHandler = SQLHandler.getSQLHandler();
     // no exception was thrown, so load up
     // the module as normal here
-  } catch(ClassNotFoundException ex) {
+  } catch(SQLUnavailableException ex) {
     System.err.println(
       "Unable to start up MyModule - " +
       "SQL is unavailable!");

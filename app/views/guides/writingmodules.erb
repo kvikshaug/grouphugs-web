@@ -114,11 +114,11 @@ public Hugger(ModuleHandler handler) {
     sqlHandler = SQLHandler.getSQLHandler();</span>
     // at this point we're fine, so register for events
     System.out.println("Hugger module loaded.");
-  <span class="code-marked">} catch(ClassNotFoundException ex) {
+  <span class="code-marked">} catch(SQLUnavailableException ex) {
     // the module is now disabled because we haven't
     // registered for events
     System.err.println("Hugger module is disabled " +
-      "because the SQL driver is unavailable!");
+      "because SQL is unavailable!");
   }</span>
 }</pre>
 
