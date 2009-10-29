@@ -66,9 +66,7 @@ public class Hugger <span class="code-marked">implements TriggerListener</span> 
 <p>But we don't care what the users says after hug, we say the same thing anyway. So we just use the bot's sendMessage method in this way:</p>
 
 <pre class="code">Grouphug.getInstance().sendMessage(
-  "This will be sent to the channel", false);</pre>
-
-<p class="note">The final "false" parameter makes the bot send the message even if it is many many lines long. If it is "true", the bot will not spam the channel, but ask the user to use the spam-trigger instead. So "true" should only be used when the user can have the message resent, and we might expect the message to be very long.</p>
+  "This will be sent to the channel");</pre>
 
 <p>So we just add this in the onTrigger method, and the module is complete! Let's also output to stdout that the module loaded fine. The final version looks like this:</p>
 
@@ -86,7 +84,7 @@ public class Hugger implements TriggerListener {
     String login, String hostname, String message) {
 
     <span class="code-marked">Grouphug.getInstance().sendMessage(
-      "Take a shower first, you dirty old man.", false);</span>
+      "Take a shower first, you dirty old man.");</span>
 
   }
 }</pre>

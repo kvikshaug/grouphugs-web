@@ -38,6 +38,9 @@ pre.code {
   color: red;
 }
 
+.inline-code {
+  font-family: monospace;
+}
 
 /* download paragraphs are small and inline */
 

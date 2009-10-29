@@ -1,0 +1,75 @@
+<% content_for :nav_guides do %> class="marked"<% end %>
+<% content_for :breadcrumbs do %><%= link_to "Guides index", :action => :index%> &gt; Using Web<% end %>
+
+<h2>Using the Web utility class</h2>
+
+<p>A lot of modules need to fetch the html source of some external web sites, and some need to make google searches. This class lets you do that easily.</p>
+
+<h3>Fetching an HTML source</h3>
+
+<p>There are several ways to do this, depending on your needs:</p>
+
+<ul>
+  <li>Retrieve an ArrayList of strings, where each line of the source is its own string</li>
+  <li>Retrieve one large string containing the whole HTML source</li>
+  <li>Retrieve a pointer to the buffered reader, and read from the reader yourself.</li>
+</ul>
+
+<h4>Retrieving an ArrayList of strings</h4>
+
+<p>To do this, we just call the <span class="inline-code">fetchHtmlLines(String)</span> method. <em style="color: #e00;">This is the recommended way of connecting to web sites.</em></p>
+
+<pre class="code">try {
+  ArrayList&lt;String&gt; lines = Web.fetchHtmlLines(
+    "http://gh.kvikshaug.no");
+
+  for(String line : lines) {
+    // traversing each line here
+    // do what you want with them
+  }
+
+} catch(IOException ex) {
+  ex.printStackTrace();
+  Grouphug.getInstance().sendMessage(
+    "Sorry, the intertubes seem to be " +
+    "clogged up, I caught an IOException.");
+}</pre>
+
+<p>Note that we have to catch the IOException. Your module has to know what to do if the site you're trying to connect to is unavailable.</p>
+
+<p class="note">Retrieving one large string is almost identical. Just call the <a href="http://spittle:3000/jdoc/grouphug/util/Web.html#fetchHtmlLine(java.lang.String)"><span class="inline-code">fetchHtmlLine(String)</span></a> method instead (without an 's'), and it returns a String instead of an ArrayList.</p>
+
+<p>To retrieve the BufferedReader for the connection, use the <a href="http://gh.kvikshaug.no/jdoc/grouphug/util/Web.html#prepareBufferedReader(java.lang.String)"><span class="inline-code">prepareBufferedReader(String)</span></a> method. This will return as soon as the connection is ready, instead of when the entire document is loaded.</p>
+
+<h3>Making a google search</h3>
+
+<p>This is almost too easy. Just call the method, get a list of result URLs, and catch any IOExceptions, like this:</p>
+
+<pre class="code">try {
+  ArrayList<URL> urls = Web.googleSearch(
+    "where to buy hugs");
+
+  if(urls.size() == 0) {
+    // there were no results
+  }
+
+  for(URL url : urls) {
+    // these are all the results
+    // do what you want with them
+    Grouphug.getInstance().sendMessage("Result: " +
+      url.toString());
+  }
+
+} catch(IOException ex) {
+  // couldn't connect and perform the google search
+  ex.printStackTrace();
+}
+</pre>
+
+<p>That's it! If you just want the first result, use <span class="inline-code">urls.get(0)</span> (just remember to check if it's empty first).</p>
+
+<p class="note">All the methods above use 20 seconds as the default timeout value when connecting. If you want to change this, you can provide an optional second int parameter to some of the methods. Check <a href="http://gh.kvikshaug.no/jdoc/grouphug/util/Web.html">the javadoc</a> for more information.</p>
+
+<hr>
+
+<p>Back to the <%= link_to "guides index", :action => :index%>.</p>

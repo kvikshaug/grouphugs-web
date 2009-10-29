@@ -19,7 +19,7 @@
 String lulz = (String)row[0];
 
 bot.sendMessage(
-  "I have some lulz for you: " + lulz, false);</pre>
+  "I have some lulz for you: " + lulz);</pre>
 
 <p>Here we fetched a single row and the text column "lulz" from "my_table", and outputted it to the channel. However, no error cases were handled. Here follows the same example, with some added error handling code:</p>
 
@@ -28,18 +28,18 @@ bot.sendMessage(
     "select lulz from my_table;");
 
   if(row == null) {
-    bot.sendMessage("Sorry, no lulz today.", false);
+    bot.sendMessage("Sorry, no lulz today.");
     return;
   } 
   
   String lulz = (String)row[0];
 
   bot.sendMessage(
-    "I have some lulz for you: " + lulz, false);
+    "I have some lulz for you: " + lulz);
 
 } catch(SQLException ex) {
   bot.sendMessage(
-    "Shit, i was unable to fetch the lulz", false);
+    "Shit, i was unable to fetch the lulz");
   ex.printStackTrace();
 }</pre>
 
@@ -84,7 +84,7 @@ int id = (Integer)row[0];
 
   for(Object[] row : rows) {
     bot.sendMessage("ID " + row[0] + " says: " +
-      row[1], false);
+      row[1]);
   }</pre>
 
 <p>Instead of calling selectSingle(), we now call select() which returns an arraylist of object rows. You can call size() on it to check if it's empty, and traverse it as you'd like.</p>
