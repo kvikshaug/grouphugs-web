@@ -27,26 +27,13 @@
 
 <p class="note">This will be the database in the state it was at the exact moment you download it. Remember that any changes you make to it will not be applied to the database file on the deployed bot. For more info, read up on <%= link_to "managing sql", :action => :managingsql %>.</p>
 
-<h4>2: Logging output</h4>
-
-<p>The log output is normally redirected to the file 'log-current' in the project root.</p>
-
-<p>You may want to skip this redirection, for example if you're using an IDE with a console, unless you're ok with using 'tail -f' or something similar. Go to the main() method in <abbr title="&lt;project root&gt;/src/main/java/grouphug/Grouphug.java">Grouphug.java</abbr>, and search for the following:</p>
-
-<pre class="code">System.setOut(stdOut);
-System.setErr(stdOut);</pre>
-
-<p>Simply comment out these two lines, and output will come right to the console.</p>
-
-<p>Just remember to uncomment them before pushing back your changes!</p>
-
-<h4>3: Channel name</h4>
+<h4>2: Channel name</h4>
 
 <p>It is probably a good idea to test and debug your new functionality for yourself in a seperate channel. The channel variable can be found in <abbr title="&lt;project root&gt;/src/main/java/grouphug/Grouphug.java">Grouphugs.java</abbr> near the top of the class.</p>
 
 <p>Remember to change the channel name back before pushing back your changes!</p>
 
-<h4>4: Libraries and dependencies</h4>
+<h4>3: Libraries and dependencies</h4>
 
 <p><em>(This is purely informational)</em></p>
 
