@@ -35,4 +35,9 @@ class ExtrasController < ApplicationController
 
     render :layout => 'empty'
   end
+
+  def uploads
+    @uploads = Uploads.find(:all, :order => "id desc")
+    render :layout => 'empty'
+  end
 end

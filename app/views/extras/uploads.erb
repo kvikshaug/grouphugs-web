@@ -1,9 +1,17 @@
-<% content_for :nav_uploads do %> class="marked"<% end %>
-<% content_for :breadcrumbs do %><!-- We need some sort of single-line random IRC quote here or something -->&nbsp;<% end %>
+<h1>Image uploads</h1>
 
-<h2>Image uploads</h2>
+<p>These are all the images uploaded through the Upload module, newest on top.</p>
 
-<p>One of the bots modules is an image upload module. It will take any image URI and save the image locally. This is for example handy for image files we know to be temporary (4chan) but still want to share.</p>
+<hr>
 
-<p>Here, you will find all those uploaded images (eventually).</p>
-
+<% @uploads.each do |img| -%>
+<h2><%= img.filename %> (aka '<%= img.keyword %>')</h2>
+<p>
+  By <%= img.nick %>, <%= img.date %><br>
+  <a href="/images/up/<%= img.filename %>">
+    <img src="/images/up/<%= img.filename %>" alt="<%= img.keyword %>" style="max-width: 1024px">
+  </a>
+</p>
+<hr>
+<% end -%>
+<p>In case you were wondering: The ones saved 2009-11-18 18:00:00 were saved before we started saving the upload datetime; that functionality was implemented around that time.</p>
