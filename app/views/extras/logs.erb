@@ -1,0 +1,9 @@
+<h1>Current grouphug log</h1>
+<% if(!params['full']) -%>
+<p><a href="/extras/logs?full=1">View the entire log</a></p>
+<% else -%>
+<p><a href="/extras/logs">View only the last 40 lines</a></p>
+<% end -%>
+<hr>
+<pre><%= @log %></pre>
+<hr>
