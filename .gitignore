@@ -6,4 +6,5 @@ doc/app
 public/grouphugs.db
 db/grouphugs.db
 public/jdoc/
-public/images/up/
+public/images/up
+public/extras/
