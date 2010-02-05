@@ -50,7 +50,7 @@ h3.downloads, p.downloads {
   margin-bottom: 0;
 }
 
-div#article ul, #div#article ul li {
+div#section ul, #div#section ul li {
   margin-left: 15px;
   padding: 0;
 }
@@ -119,7 +119,7 @@ header p.motto {
   padding: 5px;
 }
   
-article {
+section {
   float: left;
   width: 70%;
   margin: 0 10px;
@@ -127,7 +127,7 @@ article {
   text-align: justify;
 }
 
-article h2 {
+section h2 {
   color: #3b6ebf;
   font-size: 16px;
   margin-bottom: 10px;
