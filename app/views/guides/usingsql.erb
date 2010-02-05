@@ -64,7 +64,7 @@ bot.sendMessage(
 
 <p>The next example will show how to pass parameters that come externally, so that SQL injection is prevented.</p>
 
-<pre class="code">ArrayList&lt;String&gt; params = new ArrayList&lt;String&gt;();
+<pre class="code">List&lt;String&gt; params = new ArrayList&lt;String&gt;();
 params.add(nick); // nick is a string variable;
                   // the user nick of someone
 params.add(message); // message is a string variable
@@ -76,11 +76,11 @@ Object[] row = sqlHandler.selectSingle(
 int id = (Integer)row[0];
 // ...</pre>
 
-<p>As you see, you simply pass all the arguments in an ArrayList&lt;String&gt; variable, and mark them as questionmarks. They will be replaced in the order they are added to the list, and our wrappers will (try to) handle any evil-intentioned characters.</p>
+<p>As you see, you simply pass all the arguments in a List&lt;String&gt; variable, and mark them as questionmarks. They will be replaced in the order they are added to the list, and our wrappers will (try to) handle any evil-intentioned characters.</p>
 
 <p>The last example will show how to select multiple rows, and traverse them.</p>
 
-<pre class="code">ArrayList&lt;Object[]&gt; rows = sqlHandler.select(
+<pre class="code">List&lt;Object[]&gt; rows = sqlHandler.select(
   "select id, msg from lotsa_rows;");
 
   for(Object[] row : rows) {
