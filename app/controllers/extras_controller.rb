@@ -1,5 +1,7 @@
 class ExtrasController < ApplicationController
   def logs
+    @log = "No logs for you; the channel members wanted privacy. Ask murr4y if you really need logs."
+    render :layout => 'empty'
 
     if(params['full'])
       maxlines = 10000
@@ -33,7 +35,7 @@ class ExtrasController < ApplicationController
       end
     end
 
-    render :layout => 'empty'
+#    render :layout => 'empty'
   end
 
   def uploads
