@@ -88,7 +88,7 @@ int id = (Integer)row[0];
       row[1]);
   }</pre>
 
-<p>Instead of calling selectSingle(), we now call select() which returns an arraylist of object rows. You can call size() on it to check if it's empty, and traverse it as you'd like.</p>
+<p>Instead of calling selectSingle(), we now call select() which returns a list of object rows. You can call size() on it to check if it's empty, and traverse it as you'd like.</p>
 
 <p class="note">You've now seen the use of two methods; selectSingle() and select(). The remaining methods available in the SQLHandler class are:<br><br>
 
@@ -101,7 +101,7 @@ Used for update queries. Returns an int, containing the number of rows affected.
 <em>delete()</em><br>
 Used for delete queries. Returns an int, containing the number of rows affected.<br><br>
 
-All of these take a string, or a string and arraylist of parameter strings, just like select() and selectSingle().
+All of these take a string, or a string and list of parameter strings, just like select() and selectSingle().
 </p>
 
 <p>The classes are documented with <a href="/jdoc/">javadoc</a> and you're free to <a href="/jdoc/">check it out</a> for more information.</p>
