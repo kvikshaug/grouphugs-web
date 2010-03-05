@@ -5,9 +5,9 @@
 
 <p>It is surprisingly easy to write a new module. Let me show you how it works.</p>
 
-<p>First, just make a new class in the <abbr title="&lt;project root&gt;/src/main/java/grouphug/modules/">grouphug.modules</abbr> package, and add its constructor. Let's call it Hugger. It might look something like this:</p>
+<p>First, just make a new class in the <abbr title="&lt;project root&gt;/src/main/java/no/kvikshaug/gh/modules/">no.kvikshaug.gh.modules</abbr> package, and add its constructor. Let's call it Hugger. It might look something like this:</p>
 
-<pre class="code">package grouphug.modules;
+<pre class="code">package no.kvikshaug.gh.modules;
 
 public class Hugger {
   public Hugger() {
@@ -17,7 +17,7 @@ public class Hugger {
 
 <p>All right, first we need to add the ModuleHandler type to the constructor. This is because the bot will call that specific constructor later. Remember to import it. So now the whole file looks like this (changes marked red):</p>
 
-<pre class="code">package grouphug.modules;
+<pre class="code">package no.kvikshaug.gh.modules;
 
 <span class="code-marked">import grouphug.ModuleHandler;</span>
 
@@ -43,7 +43,7 @@ public class Hugger {
 
 <p>This will tell the bot to let this module know when anyone triggers the keyword "hug". The addTriggerListener takes a TriggerListener as the second parameter, so our module needs to implement that interface and its methods. So the file now looks like this:</p>
 
-<pre class="code">package grouphug.modules;
+<pre class="code">package no.kvikshaug.gh.modules;
 
 import grouphug.ModuleHandler;
 <span class="code-marked">import grouphug.listeners.TriggerListener;</span>
@@ -73,7 +73,7 @@ public class Hugger <span class="code-marked">implements TriggerListener</span> 
 
 <p>So we just add this in the onTrigger method, and the module is complete! Let's also output to stdout that the module loaded fine. The final version looks like this:</p>
 
-<pre class="code">package grouphug.modules;
+<pre class="code">package no.kvikshaug.gh.modules;
 
 import grouphug.ModuleHandler;
 
