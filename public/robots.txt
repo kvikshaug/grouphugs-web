@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow: /grouphugs.db
+Disallow: /extras/logs
+Disallow: /extras/uploads
